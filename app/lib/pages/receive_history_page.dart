@@ -3,22 +3,22 @@ import 'dart:io';
 import 'package:common/model/device.dart';
 import 'package:common/model/session_status.dart';
 import 'package:flutter/material.dart';
-import 'package:localsend_app/config/theme.dart';
-import 'package:localsend_app/gen/strings.g.dart';
-import 'package:localsend_app/model/persistence/receive_history_entry.dart';
-import 'package:localsend_app/pages/receive_page.dart';
-import 'package:localsend_app/provider/receive_history_provider.dart';
-import 'package:localsend_app/provider/settings_provider.dart';
-import 'package:localsend_app/util/file_size_helper.dart';
-import 'package:localsend_app/util/native/directories.dart';
-import 'package:localsend_app/util/native/open_file.dart';
-import 'package:localsend_app/util/native/open_folder.dart';
-import 'package:localsend_app/util/native/platform_check.dart';
-import 'package:localsend_app/widget/custom_basic_appbar.dart';
-import 'package:localsend_app/widget/dialogs/file_info_dialog.dart';
-import 'package:localsend_app/widget/dialogs/history_clear_dialog.dart';
-import 'package:localsend_app/widget/file_thumbnail.dart';
-import 'package:localsend_app/widget/responsive_list_view.dart';
+import 'package:wesend_app/config/theme.dart';
+import 'package:wesend_app/gen/strings.g.dart';
+import 'package:wesend_app/model/persistence/receive_history_entry.dart';
+import 'package:wesend_app/pages/receive_page.dart';
+import 'package:wesend_app/provider/receive_history_provider.dart';
+import 'package:wesend_app/provider/settings_provider.dart';
+import 'package:wesend_app/util/file_size_helper.dart';
+import 'package:wesend_app/util/native/directories.dart';
+import 'package:wesend_app/util/native/open_file.dart';
+import 'package:wesend_app/util/native/open_folder.dart';
+import 'package:wesend_app/util/native/platform_check.dart';
+import 'package:wesend_app/widget/custom_basic_appbar.dart';
+import 'package:wesend_app/widget/dialogs/file_info_dialog.dart';
+import 'package:wesend_app/widget/dialogs/history_clear_dialog.dart';
+import 'package:wesend_app/widget/file_thumbnail.dart';
+import 'package:wesend_app/widget/responsive_list_view.dart';
 import 'package:path/path.dart' as path;
 import 'package:refena_flutter/refena_flutter.dart';
 import 'package:routerino/routerino.dart';
@@ -64,7 +64,7 @@ class ReceiveHistoryPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final entries = context.watch(receiveHistoryProvider);
     return Scaffold(
-      appBar: basicLocalSendAppbar(t.receiveHistoryPage.title),
+      appBar: basicWeSendAppbar(t.receiveHistoryPage.title),
       body: ResponsiveListView(
         padding: const EdgeInsets.symmetric(vertical: 20),
         children: [

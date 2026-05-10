@@ -1,11 +1,11 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:localsend_app/gen/strings.g.dart';
-import 'package:localsend_app/pages/debug/debug_page.dart';
-import 'package:localsend_app/widget/custom_basic_appbar.dart';
-import 'package:localsend_app/widget/local_send_logo.dart';
-import 'package:localsend_app/widget/responsive_list_view.dart';
+import 'package:wesend_app/gen/strings.g.dart';
+import 'package:wesend_app/pages/debug/debug_page.dart';
+import 'package:wesend_app/widget/custom_basic_appbar.dart';
+import 'package:wesend_app/widget/local_send_logo.dart';
+import 'package:wesend_app/widget/responsive_list_view.dart';
 import 'package:routerino/routerino.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -24,7 +24,7 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final primaryColor = Theme.of(context).colorScheme.primary;
     return Scaffold(
-      appBar: basicLocalSendAppbar(t.aboutPage.title),
+      appBar: basicWeSendAppbar(t.aboutPage.title),
       body: ResponsiveListView(
         padding: const EdgeInsets.symmetric(horizontal: 15),
         children: [

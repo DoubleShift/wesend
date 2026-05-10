@@ -368,7 +368,7 @@ class _TranslationsSendPageCa extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'S\'està esperant una resposta…';
+  String get waiting => 'S\'està esperant una resposta�?;
   @override
   String get rejected => 'El destinatari ha rebutjat la petició.';
   @override
@@ -404,9 +404,9 @@ class _TranslationsWebSharePageCa extends TranslationsWebSharePageEn {
   @override
   String get title => 'Comparteix via enllaç';
   @override
-  String get loading => 'S\'està iniciant el servidor…';
+  String get loading => 'S\'està iniciant el servidor�?;
   @override
-  String get stopping => 'S\'està aturant el servidor…';
+  String get stopping => 'S\'està aturant el servidor�?;
   @override
   String get error => 'Hi ha hagut un error en iniciar el servidor.';
   @override

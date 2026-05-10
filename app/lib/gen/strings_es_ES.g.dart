@@ -365,7 +365,7 @@ class _TranslationsSendPageEsEs extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Esperando respuestaâ€¦';
+  String get waiting => 'Esperando respuestaâ€?;
   @override
   String get rejected => 'El destino ha rechazado la peticiÃ³n.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageEsEs extends TranslationsWebSharePageEn {
   @override
   String get title => 'Compartir mediante enlace';
   @override
-  String get loading => 'Iniciando servidorâ€¦';
+  String get loading => 'Iniciando servidorâ€?;
   @override
-  String get stopping => 'Deteniendo servidorâ€¦';
+  String get stopping => 'Deteniendo servidorâ€?;
   @override
   String get error => 'Se ha producido un error al iniciar el servidor.';
   @override

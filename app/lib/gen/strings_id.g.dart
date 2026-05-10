@@ -149,7 +149,7 @@ class _TranslationsGeneralId extends TranslationsGeneralEn {
   @override
   String get quickSave => 'Penyimpanan Cepat';
   @override
-  String get quickSaveFromFavorites => 'Simpan Cepat di â€œFavoritâ€';
+  String get quickSaveFromFavorites => 'Simpan Cepat di â€œFavoritâ€?;
   @override
   String get renamed => 'Ganti nama';
   @override
@@ -361,7 +361,7 @@ class _TranslationsSendPageId extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Menunggu tanggapanâ€¦';
+  String get waiting => 'Menunggu tanggapanâ€?;
   @override
   String get rejected => 'Penerima menolak permintaan.';
   @override
@@ -397,9 +397,9 @@ class _TranslationsWebSharePageId extends TranslationsWebSharePageEn {
   @override
   String get title => 'Bagikan melalui Tautan';
   @override
-  String get loading => 'Memulai peladenâ€¦';
+  String get loading => 'Memulai peladenâ€?;
   @override
-  String get stopping => 'Menghentikan peladenâ€¦';
+  String get stopping => 'Menghentikan peladenâ€?;
   @override
   String get error => 'Ada galat saat menjalankan peladen.';
   @override

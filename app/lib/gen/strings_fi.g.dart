@@ -405,9 +405,9 @@ class _TranslationsWebSharePageFi extends TranslationsWebSharePageEn {
   @override
   String get title => 'Jaa linkin kautta';
   @override
-  String get loading => 'Käynnistetään palvelinta…';
+  String get loading => 'Käynnistetään palvelinta�?;
   @override
-  String get stopping => 'Pysäytetään palvelinta…';
+  String get stopping => 'Pysäytetään palvelinta�?;
   @override
   String get error => 'Palvelimen käynnistyksessä tapahtui virhe.';
   @override

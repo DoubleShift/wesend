@@ -365,7 +365,7 @@ class _TranslationsSendPageTr extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Alıcıdan cevap bekleniyor…';
+  String get waiting => 'Alıcıdan cevap bekleniyor�?;
   @override
   String get rejected => 'Alıcı isteği reddetti.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageTr extends TranslationsWebSharePageEn {
   @override
   String get title => 'Link üzerinden paylaşın';
   @override
-  String get loading => 'Sunucu başlıyor…';
+  String get loading => 'Sunucu başlıyor�?;
   @override
-  String get stopping => 'Sunucu durduruluyor…';
+  String get stopping => 'Sunucu durduruluyor�?;
   @override
   String get error => 'Sunucuyu başlatırken bir hata oluştu.';
   @override

@@ -149,7 +149,7 @@ class _TranslationsGeneralEt extends TranslationsGeneralEn {
   @override
   String get quickSave => 'Kiirsalvestus';
   @override
-  String get quickSaveFromFavorites => 'Kiirsalvestamine „Lemmikutelt“';
+  String get quickSaveFromFavorites => 'Kiirsalvestamine „Lemmikutelt�?;
   @override
   String get renamed => 'Nimi on muudetud';
   @override
@@ -203,7 +203,7 @@ class _TranslationsSendTabEt extends TranslationsSendTabEn {
   @override
   late final _TranslationsSendTabPickerEt picker = _TranslationsSendTabPickerEt._(_root);
   @override
-  String get shareIntentInfo => 'Klikates nutiseadmes olevates rakendustes nuppu „Jaga“ võid kasutada ka mugavat jagamise võimalust.';
+  String get shareIntentInfo => 'Klikates nutiseadmes olevates rakendustes nuppu „Jaga�?võid kasutada ka mugavat jagamise võimalust.';
   @override
   String get nearbyDevices => 'Läheduses asuvad seadmed';
   @override
@@ -365,7 +365,7 @@ class _TranslationsSendPageEt extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Ootame vastust…';
+  String get waiting => 'Ootame vastust�?;
   @override
   String get rejected => 'Vastuvõtja on vastuvõtmisest keeldunud.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageEt extends TranslationsWebSharePageEn {
   @override
   String get title => 'Jaga lingi vahendusel';
   @override
-  String get loading => 'Käivitame serverit…';
+  String get loading => 'Käivitame serverit�?;
   @override
-  String get stopping => 'Peatame serverit…';
+  String get stopping => 'Peatame serverit�?;
   @override
   String get error => 'Serveri käivitamisel tekkis viga.';
   @override
@@ -425,7 +425,7 @@ class _TranslationsWebSharePageEt extends TranslationsWebSharePageEn {
   @override
   String get requirePin => 'Küsi PIN-koodi';
   @override
-  String pinHint({required Object pin}) => 'PIN-kood on „${pin}“';
+  String pinHint({required Object pin}) => 'PIN-kood on �?{pin}�?;
   @override
   String get encryptionHint => 'LocalSend kasutab enda poolt allkirjastatud sertifikaate. Ühenduse toimimiseks palun nõustu nendega veebibrauseris.';
   @override
@@ -842,7 +842,7 @@ class _TranslationsSettingsTabSendEt extends TranslationsSettingsTabSendEn {
   @override
   String get title => 'Saatmine';
   @override
-  String get shareViaLinkAutoAccept => 'Kui kasutusel on „Jaga lingi abil“, siis nõustu vastuvõtmisega automaatselt';
+  String get shareViaLinkAutoAccept => 'Kui kasutusel on „Jaga lingi abil�? siis nõustu vastuvõtmisega automaatselt';
 }
 
 // Path: settingsTab.network
@@ -997,11 +997,11 @@ class _TranslationsProgressPageRemainingTimeEt extends TranslationsProgressPageR
   @override
   String minutes({required Object n, required Object ss}) => '${n}:${ss}';
 
-  /// Kasuta „h“ tunni lühendina ja „m“ minutite jaoks
+  /// Kasuta „h�?tunni lühendina ja „m�?minutite jaoks
   @override
   String hours({required Object h, required Object m}) => '${h} t ${m} min';
 
-  /// Kasuta „d“ päeva, lühendina „h“ tunni lühendina ja „m“ minutite jaoks
+  /// Kasuta „d�?päeva, lühendina „h�?tunni lühendina ja „m�?minutite jaoks
   @override
   String days({required Object d, required Object h, required Object m}) => '${d} pv ${h} t ${m} min';
 }
@@ -1072,7 +1072,7 @@ class _TranslationsDialogsCannotOpenFileEt extends TranslationsDialogsCannotOpen
   @override
   String get title => 'Faili avamine ei õnnestu';
   @override
-  String content({required Object file}) => '„${file}“ faili avamine ei õnnestunud. Kas ta võib olla teisaldatud, ümbernimetatud või kustutatud?';
+  String content({required Object file}) => '�?{file}�?faili avamine ei õnnestunud. Kas ta võib olla teisaldatud, ümbernimetatud või kustutatud?';
 }
 
 // Path: dialogs.encryptionDisabledNotice
@@ -1125,7 +1125,7 @@ class _TranslationsDialogsFavoriteDeleteDialogEt extends TranslationsDialogsFavo
   @override
   String get title => 'Kustuta lemmikute hulgast';
   @override
-  String content({required Object name}) => 'Kas sa kindlasti soovid „${name}“ kustutada lemmikute hulgast?';
+  String content({required Object name}) => 'Kas sa kindlasti soovid �?{name}�?kustutada lemmikute hulgast?';
 }
 
 // Path: dialogs.favoriteEditDialog

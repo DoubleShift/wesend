@@ -367,7 +367,7 @@ class _TranslationsSendPageSv extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Väntar på svar…';
+  String get waiting => 'Väntar på svar�?;
   @override
   String get rejected => 'Mottagaren har avvisat begäran.';
   @override
@@ -405,9 +405,9 @@ class _TranslationsWebSharePageSv extends TranslationsWebSharePageEn {
   @override
   String get title => 'Dela via länk';
   @override
-  String get loading => 'Startar server…';
+  String get loading => 'Startar server�?;
   @override
-  String get stopping => 'Stoppar servern…';
+  String get stopping => 'Stoppar servern�?;
   @override
   String get error => 'Ett fel inträffade vid start av servern.';
   @override

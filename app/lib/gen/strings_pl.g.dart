@@ -149,7 +149,7 @@ class _TranslationsGeneralPl extends TranslationsGeneralEn {
   @override
   String get quickSave => 'Szybki zapis';
   @override
-  String get quickSaveFromFavorites => 'Szybki zapis dla „Ulubionych”';
+  String get quickSaveFromFavorites => 'Szybki zapis dla „Ulubionych�?;
   @override
   String get renamed => 'Przemianowany';
   @override
@@ -203,7 +203,7 @@ class _TranslationsSendTabPl extends TranslationsSendTabEn {
   @override
   late final _TranslationsSendTabPickerPl picker = _TranslationsSendTabPickerPl._(_root);
   @override
-  String get shareIntentInfo => 'Możesz także skorzystać z funkcji „Udostępnij” swojego urządzenia mobilnego, aby łatwiej wybierać pliki.';
+  String get shareIntentInfo => 'Możesz także skorzystać z funkcji „Udostępnij�?swojego urządzenia mobilnego, aby łatwiej wybierać pliki.';
   @override
   String get nearbyDevices => 'Urządzenia w pobliżu';
   @override
@@ -365,7 +365,7 @@ class _TranslationsSendPagePl extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Czekanie na odpowiedź…';
+  String get waiting => 'Czekanie na odpowiedź�?;
   @override
   String get rejected => 'Odbiorca odrzucił żądanie.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePagePl extends TranslationsWebSharePageEn {
   @override
   String get title => 'Udostępnij przez link';
   @override
-  String get loading => 'Uruchamianie serwera…';
+  String get loading => 'Uruchamianie serwera�?;
   @override
-  String get stopping => 'Zatrzymywanie serwera…';
+  String get stopping => 'Zatrzymywanie serwera�?;
   @override
   String get error => 'Wystąpił błąd podczas uruchamiania serwera.';
   @override
@@ -425,7 +425,7 @@ class _TranslationsWebSharePagePl extends TranslationsWebSharePageEn {
   @override
   String get requirePin => 'Wymagaj kodu PIN';
   @override
-  String pinHint({required Object pin}) => 'Kod PIN to „${pin}”';
+  String pinHint({required Object pin}) => 'Kod PIN to �?{pin}�?;
   @override
   String get encryptionHint => 'LocalSend używa samopodpisanego certyfikatu. Musisz go zaakceptować w przeglądarce.';
   @override
@@ -997,11 +997,11 @@ class _TranslationsProgressPageRemainingTimePl extends TranslationsProgressPageR
   @override
   String minutes({required Object n, required Object ss}) => '${n}:${ss}';
 
-  /// Użyj „h” w przypadku skrótu godzin i „m” w przypadku minut
+  /// Użyj „h�?w przypadku skrótu godzin i „m�?w przypadku minut
   @override
   String hours({required Object h, required Object m}) => '${h}h ${m}m';
 
-  /// Uży „d” w przypadku dni, „h” w przypadku godzin i „m” w przypadku minut
+  /// Uży „d�?w przypadku dni, „h�?w przypadku godzin i „m�?w przypadku minut
   @override
   String days({required Object d, required Object h, required Object m}) => '${d}d ${h}h ${m}m';
 }
@@ -1072,7 +1072,7 @@ class _TranslationsDialogsCannotOpenFilePl extends TranslationsDialogsCannotOpen
   @override
   String get title => 'Nie można otworzyć pliku';
   @override
-  String content({required Object file}) => 'Nie można otworzyć „${file}”. Czy ten plik został przeniesiony, zmieniono mu nazwę lub usunięto?';
+  String content({required Object file}) => 'Nie można otworzyć �?{file}�? Czy ten plik został przeniesiony, zmieniono mu nazwę lub usunięto?';
 }
 
 // Path: dialogs.encryptionDisabledNotice
@@ -1124,7 +1124,7 @@ class _TranslationsDialogsFavoriteDeleteDialogPl extends TranslationsDialogsFavo
   @override
   String get title => 'Usuń z ulubionych';
   @override
-  String content({required Object name}) => 'Czy na pewno chcesz usunąć z ulubionych „${name}”?';
+  String content({required Object name}) => 'Czy na pewno chcesz usunąć z ulubionych �?{name}�?';
 }
 
 // Path: dialogs.favoriteEditDialog

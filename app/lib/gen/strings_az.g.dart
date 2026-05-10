@@ -358,11 +358,11 @@ class _TranslationsWebSharePageAz extends TranslationsWebSharePageEn {
 
   // Translations
   @override
-  String get stopping => 'Server dayandırılır…';
+  String get stopping => 'Server dayandırılır�?;
   @override
   String pendingRequests({required Object n}) => 'Gözləyən sorğular: ${n}';
   @override
-  String get loading => 'Server aktivləşdirilir…';
+  String get loading => 'Server aktivləşdirilir�?;
   @override
   String get error => 'Serveri aktivləşdirərkən xəta baş verdi.';
   @override
@@ -485,7 +485,7 @@ class _TranslationsSendPageAz extends TranslationsSendPageEn {
   @override
   String get rejected => 'Qəbul edən bu sorğudan imtina etdi.';
   @override
-  String get waiting => 'Qarşı tərəfdən cavab gözlənilir…';
+  String get waiting => 'Qarşı tərəfdən cavab gözlənilir�?;
   @override
   String get tooManyAttempts => _root.web.tooManyAttempts;
   @override

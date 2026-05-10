@@ -1,4 +1,4 @@
-import 'package:localsend_app/gen/strings.g.dart';
+import 'package:wesend_app/gen/strings.g.dart';
 
 const _millisecondsPerSecond = 1000;
 const _secondsPerMinute = 60;
@@ -19,7 +19,7 @@ String getRemainingTime({
   required int remainingBytes,
 }) {
   if (bytesPerSeconds == 0) {
-    return remainingBytes == 0 ? t.progressPage.remainingTime.seconds(n: 0, ss: '00') : 'âˆž';
+    return remainingBytes == 0 ? t.progressPage.remainingTime.seconds(n: 0, ss: '00') : 'âˆ?;
   }
 
   final remainingTimeInSeconds = _getRemainingTime(bytesPerSeconds: bytesPerSeconds, remainingBytes: remainingBytes);

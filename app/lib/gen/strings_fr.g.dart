@@ -366,7 +366,7 @@ class _TranslationsSendPageFr extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'En attente d\'une réponse …';
+  String get waiting => 'En attente d\'une réponse �?;
   @override
   String get rejected => 'Le destinataire a rejeté la demande.';
   @override
@@ -404,9 +404,9 @@ class _TranslationsWebSharePageFr extends TranslationsWebSharePageEn {
   @override
   String get title => 'Partager via un lien';
   @override
-  String get loading => 'Démarrage du serveur …';
+  String get loading => 'Démarrage du serveur �?;
   @override
-  String get stopping => 'Arrêt du serveur …';
+  String get stopping => 'Arrêt du serveur �?;
   @override
   String get error => 'Une erreur est survenue lors du démarrage du serveur.';
   @override
@@ -949,7 +949,7 @@ class _TranslationsTroubleshootPageNoConnectionFr extends TranslationsTroublesho
   String get symptom => 'Les deux appareils ne peuvent ni se trouver, ni partager des fichiers.';
   @override
   String get solution =>
-      'Le problème existe-il des deux côtés ? Si oui, vérifiez que les deux appareils soient connectés au même réseau Wi-Fi et qu\'ils partagent la même configuration (port, adresse multicast, chiffrement). Il se peut que les appareils soient isolés les uns des autres, empêchant toutes communications entre eux. Cet isolement peut être désactivé dans votre routeur/box internet via l\'option "Isolement du point d\'accès" ou "AP Isolation".';
+      'Le problème existe-il des deux côtés�? Si oui, vérifiez que les deux appareils soient connectés au même réseau Wi-Fi et qu\'ils partagent la même configuration (port, adresse multicast, chiffrement). Il se peut que les appareils soient isolés les uns des autres, empêchant toutes communications entre eux. Cet isolement peut être désactivé dans votre routeur/box internet via l\'option "Isolement du point d\'accès" ou "AP Isolation".';
 }
 
 // Path: receiveHistoryPage.entryActions

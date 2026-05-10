@@ -99,41 +99,41 @@ class _TranslationsGeneralNe extends TranslationsGeneralEn {
 
   // Translations
   @override
-  String get accept => 'स्वीकार गर्नुहोस्';
+  String get accept => 'स्वीका�?गर्नुहोस�?;
   @override
-  String get accepted => 'स्वीकृत';
+  String get accepted => 'स्वीकृ�?;
   @override
-  String get add => 'थप्नुहोस्';
+  String get add => 'थप्नुहोस�?;
   @override
-  String get advanced => 'उन्नत';
+  String get advanced => 'उन्न�?;
   @override
-  String get cancel => 'रद्द गर्नुहोस्';
+  String get cancel => 'रद्द गर्नुहोस�?;
   @override
-  String get close => 'बन्द गर्नुहोस्';
+  String get close => 'बन्द गर्नुहोस�?;
   @override
-  String get confirm => 'पुष्टि गर्नुहोस्';
+  String get confirm => 'पुष्टि गर्नुहोस�?;
   @override
   String get continueStr => 'जारी राख्नुहोस्';
   @override
   String get copy => 'कपी';
   @override
-  String get copiedToClipboard => 'क्लिपबोर्डमा प्रतिलिपि गरियो';
+  String get copiedToClipboard => 'क्लिपबोर्डमा प्रतिलिप�?गरिय�?;
   @override
-  String get decline => 'अस्वीकार गर्नुहोस्';
+  String get decline => 'अस्वीका�?गर्नुहोस�?;
   @override
-  String get done => 'सकियो';
+  String get done => 'सकिय�?;
   @override
-  String get edit => 'सम्पादन गर्नुहोस्';
+  String get edit => 'सम्पाद�?गर्नुहोस�?;
   @override
   String get error => 'त्रुटि';
   @override
   String get example => 'उदाहरण';
   @override
-  String get files => 'फाइलहरू';
+  String get files => 'फाइलहर�?;
   @override
-  String get finished => 'समाप्त भयो';
+  String get finished => 'समाप्त भय�?;
   @override
-  String get hide => 'लुकाउनुहोस्';
+  String get hide => 'लुकाउनुहोस�?;
   @override
   String get off => 'बन्द';
   @override
@@ -145,11 +145,11 @@ class _TranslationsGeneralNe extends TranslationsGeneralEn {
   @override
   String get open => 'खोल्नुहोस्';
   @override
-  String get queue => 'लाम';
+  String get queue => 'ला�?;
   @override
-  String get quickSave => 'छिटो सेव गर्नुहोस्';
+  String get quickSave => 'छिटो से�?गर्नुहोस�?;
   @override
-  String get renamed => 'नामाकरण गरियो';
+  String get renamed => 'नामाकर�?गरिय�?;
   @override
   String get reset => 'फिर्ता लिनुहोस्';
   @override
@@ -161,9 +161,9 @@ class _TranslationsGeneralNe extends TranslationsGeneralEn {
   @override
   String get start => 'सुरु';
   @override
-  String get stop => 'रोक';
+  String get stop => 'रो�?;
   @override
-  String get save => 'सेव गर्नुहोस्';
+  String get save => 'से�?गर्नुहोस�?;
   @override
   String get unchanged => 'अपरिवर्तित';
   @override
@@ -173,7 +173,7 @@ class _TranslationsGeneralNe extends TranslationsGeneralEn {
   @override
   String get noItemInClipboard => 'क्लिपबोर्ड खाली छ।';
   @override
-  String get quickSaveFromFavorites => 'छिटो मनपर्नेमा राख्नुहोस्';
+  String get quickSaveFromFavorites => 'छिटो मनपर्नेम�?राख्नुहोस्';
 }
 
 // Path: receiveTab
@@ -184,7 +184,7 @@ class _TranslationsReceiveTabNe extends TranslationsReceiveTabEn {
 
   // Translations
   @override
-  String get title => 'प्राप्त गर्नुहोस्';
+  String get title => 'प्राप्�?गर्नुहोस�?;
   @override
   late final _TranslationsReceiveTabInfoBoxNe infoBox = _TranslationsReceiveTabInfoBoxNe._(_root);
   @override
@@ -205,23 +205,23 @@ class _TranslationsSendTabNe extends TranslationsSendTabEn {
   @override
   late final _TranslationsSendTabPickerNe picker = _TranslationsSendTabPickerNe._(_root);
   @override
-  String get shareIntentInfo => 'तपाईले आफ्नो मोबाइल उपकरणको "साझेदारी" सुविधा पनि प्रयोग गर्न सक्नुहुन्छ फाइलहरू थप सजिलै चयन गर्न।';
+  String get shareIntentInfo => 'तपाईले आफ्न�?मोबाइल उपकरणक�?"साझेदारी" सुविधा पन�?प्रयोग गर्न सक्नुहुन्छ फाइलहर�?थप सजिल�?चय�?गर्न�?;
   @override
-  String get nearbyDevices => 'नजिकैका उपकरणहरू';
+  String get nearbyDevices => 'नजिकैक�?उपकरणहरू';
   @override
-  String get thisDevice => 'यो उपकरण';
+  String get thisDevice => 'यो उपकर�?;
   @override
   String get scan => 'उपकरणहरू खोज्नुहोस्';
   @override
-  String get sendMode => 'पठाउने मोड';
+  String get sendMode => 'पठाउने मो�?;
   @override
   late final _TranslationsSendTabSendModesNe sendModes = _TranslationsSendTabSendModesNe._(_root);
   @override
-  String get sendModeHelp => 'स्पष्टीकरण';
+  String get sendModeHelp => 'स्पष्टीकर�?;
   @override
-  String get help => 'कृपया सुनिश्चित गर्नुहोस् कि इच्छित लक्ष्य पनि उही वाइफाइ नेटवर्कमा छ।';
+  String get help => 'कृपय�?सुनिश्चि�?गर्नुहोस�?कि इच्छित लक्ष्य पन�?उही वाइफाइ नेटवर्कम�?छ।';
   @override
-  String get placeItems => 'साझेदारी गर्न वस्तुहरू राख्नुहोस्।';
+  String get placeItems => 'साझेदारी गर्न वस्तुहरू राख्नुहोस्�?;
   @override
   String get manualSending => 'म्यानुअल पठाउने';
 }
@@ -242,7 +242,7 @@ class _TranslationsSettingsTabNe extends TranslationsSettingsTabEn {
   @override
   late final _TranslationsSettingsTabNetworkNe network = _TranslationsSettingsTabNetworkNe._(_root);
   @override
-  String get advancedSettings => 'उन्नत सेटिङहरू';
+  String get advancedSettings => 'उन्न�?सेटिङहरू';
   @override
   late final _TranslationsSettingsTabSendNe send = _TranslationsSettingsTabSendNe._(_root);
   @override
@@ -257,13 +257,13 @@ class _TranslationsTroubleshootPageNe extends TranslationsTroubleshootPageEn {
 
   // Translations
   @override
-  String get title => 'समस्या निवारण गर्नुहोस्';
+  String get title => 'समस्या निवारण गर्नुहोस�?;
   @override
-  String get subTitle => 'के एपले अपेक्षा गरेअनुसार काम गर्दैन? यहाँ तपाईंले समस्याहरूको केही सामान्य समाधानहरू फेला पार्न सक्नुहुन्छ।';
+  String get subTitle => 'के एपले अपेक्ष�?गरेअनुसा�?का�?गर्दैन? यहाँ तपाईंल�?समस्याहरूक�?केही सामान्�?समाधानहर�?फेला पार्�?सक्नुहुन्छ�?;
   @override
   String get solution => 'समाधान:';
   @override
-  String get fixButton => 'स्वतः समाधान गर्नुहोस्';
+  String get fixButton => 'स्वत�?समाधान गर्नुहोस�?;
   @override
   late final _TranslationsTroubleshootPageFirewallNe firewall = _TranslationsTroubleshootPageFirewallNe._(_root);
   @override
@@ -284,7 +284,7 @@ class _TranslationsReceiveHistoryPageNe extends TranslationsReceiveHistoryPageEn
   @override
   String get openFolder => 'फोल्डर खोल्नुहोस्';
   @override
-  String get deleteHistory => 'इतिहास मेटाउनुहोस्';
+  String get deleteHistory => 'इतिहास मेटाउनुहोस�?;
   @override
   String get empty => 'इतिहास खाली छ।';
   @override
@@ -299,13 +299,13 @@ class _TranslationsApkPickerPageNe extends TranslationsApkPickerPageEn {
 
   // Translations
   @override
-  String get title => 'अनुप्रयोग (APK)';
+  String get title => 'अनुप्रयो�?(APK)';
   @override
-  String get excludeSystemApps => 'प्रणाली एपहरू समावेश नगर्नुहोस्';
+  String get excludeSystemApps => 'प्रणाली एपहर�?समावेश नगर्नुहोस्';
   @override
-  String get excludeAppsWithoutLaunchIntent => 'सुरु गर्न नसकिने एपहरू बहिष्कार गर्नुहोस्';
+  String get excludeAppsWithoutLaunchIntent => 'सुरु गर्न नसकिने एपहर�?बहिष्कार गर्नुहोस�?;
   @override
-  String apps({required Object n}) => '${n} अनुप्रयोग';
+  String apps({required Object n}) => '${n} अनुप्रयो�?;
 }
 
 // Path: selectedFilesPage
@@ -316,7 +316,7 @@ class _TranslationsSelectedFilesPageNe extends TranslationsSelectedFilesPageEn {
 
   // Translations
   @override
-  String get deleteAll => 'सबै मेटाउनुहोस्';
+  String get deleteAll => 'सब�?मेटाउनुहोस�?;
 }
 
 // Path: receivePage
@@ -329,15 +329,15 @@ class _TranslationsReceivePageNe extends TranslationsReceivePageEn {
   @override
   String subTitle({required num n}) => (_root.$meta.cardinalResolver ?? PluralResolvers.cardinal('ne'))(
     n,
-    one: 'तपाईंलाई एउटा फाइल पठाउन चाहन्छ',
-    other: 'तपाईलाई ${n} फाइलहरू पठाउन चाहन्छ',
+    one: 'तपाईंलाई एउटा फाइल पठाउ�?चाहन्छ',
+    other: 'तपाईला�?${n} फाइलहर�?पठाउ�?चाहन्छ',
   );
   @override
-  String get subTitleMessage => 'तपाईलाई सन्देश पठाइयो:';
+  String get subTitleMessage => 'तपाईला�?सन्देश पठाइयो:';
   @override
-  String get subTitleLink => 'तपाईंलाई लिङ्क पठाइयो:';
+  String get subTitleLink => 'तपाईंलाई लिङ्�?पठाइयो:';
   @override
-  String get canceled => 'प्रेषकले अनुरोध रद्द गरेको छ।';
+  String get canceled => 'प्रेषकले अनुरोध रद्द गरेक�?छ।';
 }
 
 // Path: receiveOptionsPage
@@ -348,7 +348,7 @@ class _TranslationsReceiveOptionsPageNe extends TranslationsReceiveOptionsPageEn
 
   // Translations
   @override
-  String get title => 'विकल्पहरू';
+  String get title => 'विकल्पहर�?;
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
@@ -356,7 +356,7 @@ class _TranslationsReceiveOptionsPageNe extends TranslationsReceiveOptionsPageEn
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
-  String get saveToGalleryOff => 'फोल्डरहरू भएकाले स्वतः बन्द भयो।';
+  String get saveToGalleryOff => 'फोल्डरहर�?भएकाले स्वत�?बन्द भयो।';
 }
 
 // Path: sendPage
@@ -367,11 +367,11 @@ class _TranslationsSendPageNe extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'प्रतिक्रियाको प्रतीक्षा गर्दै…';
+  String get waiting => 'प्रतिक्रियाक�?प्रतीक्षा गर्दै�?;
   @override
-  String get rejected => 'प्राप्तकर्ताले अनुरोध अस्वीकार गरेको छ।';
+  String get rejected => 'प्राप्तकर्ताले अनुरोध अस्वीका�?गरेक�?छ।';
   @override
-  String get busy => 'प्राप्तकर्ता अर्को अनुरोधमा व्यस्त छ।';
+  String get busy => 'प्राप्तकर्ता अर्क�?अनुरोधमा व्यस्त छ।';
   @override
   String get tooManyAttempts => _root.web.tooManyAttempts;
 }
@@ -384,11 +384,11 @@ class _TranslationsProgressPageNe extends TranslationsProgressPageEn {
 
   // Translations
   @override
-  String get titleSending => 'फाइलहरू पठाउँदै';
+  String get titleSending => 'फाइलहर�?पठाउँद�?;
   @override
-  String get titleReceiving => 'फाइलहरू प्राप्त गर्दै';
+  String get titleReceiving => 'फाइलहर�?प्राप्�?गर्द�?;
   @override
-  String get savedToGallery => 'फोटोहरूमा सुरक्षित गरियो';
+  String get savedToGallery => 'फोटोहरूम�?सुरक्षित गरिय�?;
   @override
   late final _TranslationsProgressPageTotalNe total = _TranslationsProgressPageTotalNe._(_root);
 }
@@ -401,35 +401,35 @@ class _TranslationsWebSharePageNe extends TranslationsWebSharePageEn {
 
   // Translations
   @override
-  String get title => 'लिङ्क मार्फत सेयर गर्नुहोस्';
+  String get title => 'लिङ्�?मार्फत सेयर गर्नुहोस�?;
   @override
-  String get loading => 'सर्भर सुरु गर्दै…';
+  String get loading => 'सर्भ�?सुरु गर्दै�?;
   @override
-  String get stopping => 'सर्भर रोकिँदै…';
+  String get stopping => 'सर्भ�?रोकिँदै�?;
   @override
-  String get error => 'सर्भर सुरु गर्दा एउटा त्रुटि भयो।';
+  String get error => 'सर्भ�?सुरु गर्द�?एउटा त्रुटि भयो।';
   @override
   String openLink({required num n}) => (_root.$meta.cardinalResolver ?? PluralResolvers.cardinal('ne'))(
     n,
-    one: 'यो लिङ्क आफ्नो ब्राउजरमा खोल्नुहोस्:',
-    other: 'आफ्नो ब्राउजरमा यी मध्ये एउटा लिङ्क खोल्नुहोस्:',
+    one: 'यो लिङ्�?आफ्न�?ब्राउजरम�?खोल्नुहोस्:',
+    other: 'आफ्न�?ब्राउजरम�?यी मध्य�?एउटा लिङ्�?खोल्नुहोस्:',
   );
   @override
   String get requests => 'अनुरोध';
   @override
-  String get noRequests => 'अहिलेसम्म कुनै अनुरोध छैन।';
+  String get noRequests => 'अहिलेसम्�?कुनै अनुरोध छैन।';
   @override
   String get encryption => _root.settingsTab.network.encryption;
   @override
-  String get encryptionHint => 'LocalSend एक स्वयंसिग्ध प्रमाणपत्र प्रयोग गर्दछ। तपाईंले ब्राउजरमा यसलाई स्वीकार्नु पर्दछ।';
+  String get encryptionHint => 'LocalSend एक स्वयंसिग्ध प्रमाणपत्र प्रयोग गर्दछ। तपाईंल�?ब्राउजरम�?यसला�?स्वीकार्नु पर्दछ।';
   @override
-  String pendingRequests({required Object n}) => 'लंबित अनुरोध: ${n}';
+  String pendingRequests({required Object n}) => 'लंबि�?अनुरोध: ${n}';
   @override
-  String pinHint({required Object pin}) => 'पिन "${pin}" हो';
+  String pinHint({required Object pin}) => 'पि�?"${pin}" हो';
   @override
-  String get autoAccept => 'स्वचालित रूपमा अनुरोधहरू स्वीकार गर्नुहोस्';
+  String get autoAccept => 'स्वचालित रूपम�?अनुरोधहर�?स्वीका�?गर्नुहोस�?;
   @override
-  String get requirePin => 'पिन आवश्यक छ';
+  String get requirePin => 'पि�?आवश्यक �?;
 }
 
 // Path: aboutPage
@@ -443,15 +443,15 @@ class _TranslationsAboutPageNe extends TranslationsAboutPageEn {
   String get title => 'LocalSend को बारेमा';
   @override
   List<String> get description => [
-    'LocalSend एउटा नि:शुल्क, खुला स्रोत एप हो जसले तपाईंलाई इन्टरनेट जडानको आवश्यकता बिना नै आफ्नो स्थानीय नेटवर्कमा नजिकैका उपकरणहरूसँग फाइलहरू र सन्देशहरू सुरक्षित रूपमा साझेदारी गर्न अनुमति दिन्छ।',
-    'यो एप एन्ड्रोइड, आईओएस, म्याकओएस, विन्डोज र लिनक्समा उपलब्ध छ। तपाईंले आधिकारिक होमपेजमा सबै डाउनलोड विकल्पहरू फेला पार्न सक्नुहुन्छ।',
+    'LocalSend एउटा नि:शुल्�? खुला स्रो�?एप हो जसले तपाईंलाई इन्टरनेट जडानको आवश्यकता बिना नै आफ्न�?स्थानी�?नेटवर्कम�?नजिकैक�?उपकरणहरूसँ�?फाइलहर�?�?सन्देशहर�?सुरक्षित रूपम�?साझेदारी गर्न अनुमति दिन्छ।',
+    'यो एप एन्ड्रोइ�? आईओए�? म्याकओएस, विन्डो�?�?लिनक्समा उपलब्ध छ। तपाईंल�?आधिकारिक होमपेजमा सब�?डाउनलो�?विकल्पहर�?फेला पार्�?सक्नुहुन्छ�?,
   ];
   @override
   String get author => 'लेखक';
   @override
   String get contributors => 'योगदानकर्ताहरू';
   @override
-  String get packagers => 'प्याकेजरहरू';
+  String get packagers => 'प्याकेजरहर�?;
   @override
   String get translators => 'अनुवादकहरू';
 }
@@ -479,13 +479,13 @@ class _TranslationsAliasGeneratorNe extends TranslationsAliasGeneratorEn {
     'मनमोहक',
     'सुन्दर',
     'ठूलो',
-    'उज्यालो',
-    'सफा',
+    'उज्याल�?,
+    'सफ�?,
     'चलाख',
-    'कूल',
+    'कू�?,
     'प्यारो',
     'चतुर',
-    'निर्धारित',
+    'निर्धारि�?,
     'ऊर्जावान',
     'कुशल',
     'शानदार',
@@ -497,52 +497,52 @@ class _TranslationsAliasGeneratorNe extends TranslationsAliasGeneratorEn {
     'महान',
     'सुन्दर',
     'तातो',
-    'दयालु',
+    'दयाल�?,
     'प्यारो',
     'रहस्यवादी',
-    'सफा',
+    'सफ�?,
     'राम्रो',
     'बिरामी',
     'सुन्दर',
     'शक्तिशाली',
     'धनी',
-    'गोप्य',
-    'स्मार्ट',
-    'ठोस',
-    'विशेष',
-    'रणनीतिक',
-    'बलियो',
-    'व्यवस्थित',
+    'गोप्�?,
+    'स्मार्�?,
+    'ठो�?,
+    'विशे�?,
+    'रणनीति�?,
+    'बलिय�?,
+    'व्यवस्थि�?,
     'बुद्धिमान्',
   ];
   @override
   List<String> get fruits => [
-    'स्याऊ',
-    'एभोकाडो',
+    'स्या�?,
+    'एभोकाड�?,
     'केरा',
     'ब्ल्याकबेरी',
     'ब्लूबेरी',
     'ब्रोकाउली',
     'गाजर',
     'चेरी',
-    'नरिवल',
-    'अंगूर',
+    'नरिव�?,
+    'अंगू�?,
     'कागती',
     'सलाद',
-    'आँप',
+    'आँ�?,
     'खरबुजा',
-    'च्याउ',
-    'प्याज',
-    'सुन्तला',
+    'च्या�?,
+    'प्या�?,
+    'सुन्तल�?,
     'पपीता',
-    'पीच',
+    'पी�?,
     'नाशपाती',
     'अनानास',
-    'आलु',
-    'कद्दू',
+    'आल�?,
+    'कद्द�?,
     'रास्पबेरी',
     'स्ट्रबेरी',
-    'टमाटर',
+    'टमाट�?,
   ];
 
   /// In some languages, the adjective must be last.
@@ -621,9 +621,9 @@ class _TranslationsTrayNe extends TranslationsTrayEn {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'LocalSend बन्द गर्नुहोस्';
+  String get close => 'LocalSend बन्द गर्नुहोस�?;
   @override
-  String get closeWindows => 'बाहिर निस्कनुहोस्';
+  String get closeWindows => 'बाहि�?निस्कनुहोस�?;
 }
 
 // Path: web
@@ -636,19 +636,19 @@ class _TranslationsWebNe extends TranslationsWebEn {
   @override
   String get waiting => _root.sendPage.waiting;
   @override
-  String get rejected => 'अस्वीकृत';
+  String get rejected => 'अस्वीकृ�?;
   @override
-  String get files => 'फाइलहरू';
+  String get files => 'फाइलहर�?;
   @override
-  String get fileName => 'फाइलको नाम';
+  String get fileName => 'फाइलको ना�?;
   @override
   String get size => 'आकार';
   @override
-  String get enterPin => 'पिन प्रविष्ट गर्नुहोस्';
+  String get enterPin => 'पि�?प्रविष्ट गर्नुहोस�?;
   @override
-  String get invalidPin => 'अमान्य पिन';
+  String get invalidPin => 'अमान्य पि�?;
   @override
-  String get tooManyAttempts => 'धेरै प्रयासहरू';
+  String get tooManyAttempts => 'धेरै प्रयासहर�?;
 }
 
 // Path: assetPicker
@@ -659,60 +659,60 @@ class _TranslationsAssetPickerNe extends TranslationsAssetPickerEn {
 
   // Translations
   @override
-  String get confirm => 'पुष्टि गर्नुहोस्';
+  String get confirm => 'पुष्टि गर्नुहोस�?;
   @override
-  String get cancel => 'रद्द गर्नुहोस्';
+  String get cancel => 'रद्द गर्नुहोस�?;
   @override
-  String get edit => 'सम्पादन गर्नुहोस्';
+  String get edit => 'सम्पाद�?गर्नुहोस�?;
   @override
   String get gifIndicator => 'GIF';
   @override
-  String get loadFailed => 'लोड गर्न मिलेन';
+  String get loadFailed => 'लो�?गर्न मिले�?;
   @override
-  String get original => 'मूल';
+  String get original => 'मू�?;
   @override
-  String get preview => 'पूर्वावलोकन गर्नुहोस्';
+  String get preview => 'पूर्वावलोक�?गर्नुहोस�?;
   @override
   String get select => 'छान्नुहोस्';
   @override
   String get emptyList => 'खाली सूची';
   @override
-  String get unSupportedAssetType => 'असमर्थित फाईल प्रकार।';
+  String get unSupportedAssetType => 'असमर्थित फाईल प्रकार�?;
   @override
-  String get unableToAccessAll => 'यस उपकरणमा सबै फाईलहरूमा पहुँच प्राप्त गर्न सकिएन';
+  String get unableToAccessAll => 'यस उपकरणम�?सब�?फाईलहरूम�?पहुँ�?प्राप्�?गर्न सकिए�?;
   @override
-  String get viewingLimitedAssetsTip => 'केवल फाईलहरू र एल्बमहरूलाई अनुप्रयोगको लागि पहुँचयोग्य हेर्नुहोस्।';
+  String get viewingLimitedAssetsTip => 'केवल फाईलहर�?�?एल्बमहरूला�?अनुप्रयोगक�?लागि पहुँचयोग्य हेर्नुहोस्�?;
   @override
-  String get changeAccessibleLimitedAssets => 'पहुँचयोग्य फाईलहरू अद्यावधिक गर्न क्लिक गर्नुहोस्';
+  String get changeAccessibleLimitedAssets => 'पहुँचयोग्य फाईलहर�?अद्यावधि�?गर्न क्लि�?गर्नुहोस�?;
   @override
   String get accessAllTip =>
-      'अनुप्रयोगमा केहि फाईलहरूलाई मात्र पहुँच गर्न सक्दछ। प्रणाली सेटिङ्समा जानुहोस् र उपकरणमा सबै मिडिया मा अनुप्रयोगलाई पहुँच दिनुहोस्।';
+      'अनुप्रयोगम�?केहि फाईलहरूलाई मात्�?पहुँ�?गर्न सक्दछ। प्रणाली सेटिङ्सम�?जानुहोस् �?उपकरणम�?सब�?मिडिया मा अनुप्रयोगलाई पहुँ�?दिनुहोस्�?;
   @override
   String get goToSystemSettings => 'प्रणाली सेटिंग्समा जानुहोस्';
   @override
-  String get accessLimitedAssets => 'सीमित पहुँचको साथ जारी राख्नुहोस्';
+  String get accessLimitedAssets => 'सीमि�?पहुँचक�?सा�?जारी राख्नुहोस्';
   @override
-  String get accessiblePathName => 'पहुँचीने फाईलहरू';
+  String get accessiblePathName => 'पहुँचीने फाईलहर�?;
   @override
-  String get sTypeAudioLabel => 'अडियो';
+  String get sTypeAudioLabel => 'अडिय�?;
   @override
-  String get sTypeImageLabel => 'तस्वीर';
+  String get sTypeImageLabel => 'तस्वी�?;
   @override
   String get sTypeVideoLabel => 'भिडियो';
   @override
   String get sTypeOtherLabel => 'अन्य मिडिया';
   @override
-  String get sActionPlayHint => 'प्ले गर्नुहोस्';
+  String get sActionPlayHint => 'प्ले गर्नुहोस�?;
   @override
-  String get sActionPreviewHint => 'अग्रिम पूर्वावलोकन गर्नुहोस्';
+  String get sActionPreviewHint => 'अग्रिम पूर्वावलोक�?गर्नुहोस�?;
   @override
   String get sActionSelectHint => 'छान्नुहोस्';
   @override
-  String get sActionSwitchPathLabel => 'पथ परिवर्तन गर्नुहोस्';
+  String get sActionSwitchPathLabel => 'पथ परिवर्तन गर्नुहोस�?;
   @override
-  String get sActionUseCameraHint => 'क्यामेरा प्रयोग गर्नुहोस्';
+  String get sActionUseCameraHint => 'क्यामेरा प्रयोग गर्नुहोस�?;
   @override
-  String get sNameDurationLabel => 'समय अवधि';
+  String get sNameDurationLabel => 'सम�?अवधि';
   @override
   String get sUnitAssetCountLabel => 'गणना';
 }
@@ -725,16 +725,16 @@ class _TranslationsNetworkInterfacesPageNe extends TranslationsNetworkInterfaces
 
   // Translations
   @override
-  String get title => 'नेटवर्क इन्टरफेसहरू';
+  String get title => 'नेटवर्�?इन्टरफेसहर�?;
   @override
-  String get preview => 'पूर्वावलोकन';
+  String get preview => 'पूर्वावलोक�?;
   @override
   String get blacklist => 'कालोसूची';
   @override
   String get whitelist => 'श्वेतसूची';
   @override
   String get info =>
-      'पूर्वनिर्धारित रूपमा, LocalSend ले सबै उपलब्ध नेटवर्क इन्टरफेसहरू प्रयोग गर्दछ। तपाईं यहाँ अनावश्यक नेटवर्कहरू बहिष्कार गर्न सक्नुहुन्छ। परिवर्तनहरू लागू गर्न तपाईंले सर्भर पुन: सुरु गर्न आवश्यक छ।';
+      'पूर्वनिर्धारित रूपम�? LocalSend ले सब�?उपलब्ध नेटवर्�?इन्टरफेसहर�?प्रयोग गर्दछ। तपाई�?यहाँ अनावश्यक नेटवर्कहरू बहिष्कार गर्न सक्नुहुन्छ�?परिवर्तनहर�?लागू गर्न तपाईंल�?सर्भ�?पु�? सुरु गर्न आवश्यक छ।';
 }
 
 // Path: donationPage
@@ -745,16 +745,16 @@ class _TranslationsDonationPageNe extends TranslationsDonationPageEn {
 
   // Translations
   @override
-  String get title => 'दान गर्नुहोस्';
+  String get title => 'दा�?गर्नुहोस�?;
   @override
   String get info =>
-      'LocalSend नि:शुल्क, खुला स्रोत र कुनै पनि विज्ञापन बिनाको एप हो। यदि तपाईंलाई एप मनपर्छ भने, तपाईंले दान दिएर विकासलाई समर्थन गर्न सक्नुहुन्छ।';
+      'LocalSend नि:शुल्�? खुला स्रो�?�?कुनै पन�?विज्ञापन बिनाको एप हो�?यद�?तपाईंलाई एप मनपर्छ भन�? तपाईंल�?दा�?दिएर विकासलाई समर्थन गर्न सक्नुहुन्छ�?;
   @override
-  String donate({required Object amount}) => '${amount} दान गर्नुहोस्';
+  String donate({required Object amount}) => '${amount} दा�?गर्नुहोस�?;
   @override
-  String get thanks => 'धेरै धन्यवाद!';
+  String get thanks => 'धेरै धन्यवा�?';
   @override
-  String get restore => 'खरिद पुनर्स्थापित गर्नुहोस्';
+  String get restore => 'खरिद पुनर्स्थापित गर्नुहोस�?;
 }
 
 // Path: sanitization
@@ -765,9 +765,9 @@ class _TranslationsSanitizationNe extends TranslationsSanitizationEn {
 
   // Translations
   @override
-  String get empty => 'फाइलको नाम खाली हुन सक्दैन';
+  String get empty => 'फाइलको ना�?खाली हु�?सक्दैन';
   @override
-  String get invalid => 'फाइलको नाममा अवैध वर्णहरू छन्';
+  String get invalid => 'फाइलको नामम�?अवैध वर्णहर�?छन�?;
 }
 
 // Path: receiveTab.infoBox
@@ -780,9 +780,9 @@ class _TranslationsReceiveTabInfoBoxNe extends TranslationsReceiveTabInfoBoxEn {
   @override
   String get ip => 'आईपी :';
   @override
-  String get port => 'पोर्ट:';
+  String get port => 'पोर्�?';
   @override
-  String get alias => 'उपकरणको नाम:';
+  String get alias => 'उपकरणक�?ना�?';
 }
 
 // Path: receiveTab.quickSave
@@ -808,9 +808,9 @@ class _TranslationsSendTabSelectionNe extends TranslationsSendTabSelectionEn {
 
   // Translations
   @override
-  String get title => 'चयन';
+  String get title => 'चय�?;
   @override
-  String files({required Object files}) => 'फाइलहरू: ${files}';
+  String files({required Object files}) => 'फाइलहर�? ${files}';
   @override
   String size({required Object size}) => 'आकार: ${size}';
 }
@@ -829,11 +829,11 @@ class _TranslationsSendTabPickerNe extends TranslationsSendTabPickerEn {
   @override
   String get media => 'मिडिया';
   @override
-  String get text => 'पाठ';
+  String get text => 'पा�?;
   @override
-  String get app => 'अनुप्रयोग';
+  String get app => 'अनुप्रयो�?;
   @override
-  String get clipboard => 'पेस्ट गर्नुहोस्';
+  String get clipboard => 'पेस्�?गर्नुहोस�?;
 }
 
 // Path: sendTab.sendModes
@@ -844,11 +844,11 @@ class _TranslationsSendTabSendModesNe extends TranslationsSendTabSendModesEn {
 
   // Translations
   @override
-  String get single => 'एकल प्राप्तकर्ता';
+  String get single => 'एक�?प्राप्तकर्ता';
   @override
   String get multiple => 'एकाधिक प्राप्तकर्ता';
   @override
-  String get link => 'लिङ्क मार्फत सेयर गर्नुहोस्';
+  String get link => 'लिङ्�?मार्फत सेयर गर्नुहोस�?;
 }
 
 // Path: settingsTab.general
@@ -859,13 +859,13 @@ class _TranslationsSettingsTabGeneralNe extends TranslationsSettingsTabGeneralEn
 
   // Translations
   @override
-  String get title => 'सामान्य';
+  String get title => 'सामान्�?;
   @override
-  String get brightness => 'थीम';
+  String get brightness => 'थी�?;
   @override
   late final _TranslationsSettingsTabGeneralBrightnessOptionsNe brightnessOptions = _TranslationsSettingsTabGeneralBrightnessOptionsNe._(_root);
   @override
-  String get color => 'रंग';
+  String get color => 'रं�?;
   @override
   late final _TranslationsSettingsTabGeneralColorOptionsNe colorOptions = _TranslationsSettingsTabGeneralColorOptionsNe._(_root);
   @override
@@ -873,19 +873,19 @@ class _TranslationsSettingsTabGeneralNe extends TranslationsSettingsTabGeneralEn
   @override
   late final _TranslationsSettingsTabGeneralLanguageOptionsNe languageOptions = _TranslationsSettingsTabGeneralLanguageOptionsNe._(_root);
   @override
-  String get saveWindowPlacement => 'बन्द गरेपछि विन्डोको स्थिति सुरक्षित गर्नुहोस्';
+  String get saveWindowPlacement => 'बन्द गरेपछि विन्डोको स्थिति सुरक्षित गर्नुहोस�?;
   @override
-  String get minimizeToTray => 'छोड्नुहोस्: ट्रेमा न्यूनतम गर्नुहोस्';
+  String get minimizeToTray => 'छोड्नुहोस्: ट्रेमा न्यूनत�?गर्नुहोस�?;
   @override
-  String get launchAtStartup => 'लगइन पछि स्वत: सुरु गर्नुहोस्';
+  String get launchAtStartup => 'लगइन पछ�?स्वत: सुरु गर्नुहोस�?;
   @override
-  String get launchMinimized => 'स्वतः सुरु गर्नुहोस्: लुकेको सुरु गर्नुहोस्';
+  String get launchMinimized => 'स्वत�?सुरु गर्नुहोस�? लुकेको सुरु गर्नुहोस�?;
   @override
   String get animations => 'एनिमेसनहरू';
   @override
-  String get saveWindowPlacementWindows => 'बाहिर निस्किएपछि विन्डोको स्थिति सुरक्षित गर्नुहोस्';
+  String get saveWindowPlacementWindows => 'बाहि�?निस्किएपछि विन्डोको स्थिति सुरक्षित गर्नुहोस�?;
   @override
-  String get showInContextMenu => 'कन्टेक्स्ट मेनुमा LocalSend देखाउनुहोस्';
+  String get showInContextMenu => 'कन्टेक्स्ट मेनुमा LocalSend देखाउनुहोस�?;
 }
 
 // Path: settingsTab.receive
@@ -896,21 +896,21 @@ class _TranslationsSettingsTabReceiveNe extends TranslationsSettingsTabReceiveEn
 
   // Translations
   @override
-  String get title => 'प्राप्त गर्नुहोस्';
+  String get title => 'प्राप्�?गर्नुहोस�?;
   @override
   String get quickSave => _root.general.quickSave;
   @override
-  String get destination => 'गन्तव्य';
+  String get destination => 'गन्तव्�?;
   @override
-  String get downloads => '(डाउनलोड)';
+  String get downloads => '(डाउनलो�?';
   @override
-  String get saveToGallery => 'मिडियालाई ग्यालरीमा सेभ गर्नुहोस्';
+  String get saveToGallery => 'मिडियाला�?ग्यालरीमा से�?गर्नुहोस�?;
   @override
-  String get saveToHistory => 'इतिहासमा संचय गर्नुहोस्';
+  String get saveToHistory => 'इतिहासमा संचय गर्नुहोस�?;
   @override
   String get requirePin => _root.webSharePage.requirePin;
   @override
-  String get autoFinish => 'स्वतः समाप्त';
+  String get autoFinish => 'स्वत�?समाप्त';
 }
 
 // Path: settingsTab.network
@@ -921,37 +921,37 @@ class _TranslationsSettingsTabNetworkNe extends TranslationsSettingsTabNetworkEn
 
   // Translations
   @override
-  String get title => 'नेटवर्क';
+  String get title => 'नेटवर्�?;
   @override
-  String get needRestart => 'सेटिङ्हरू लागू गर्न सर्भर पुन: सुरु गर्नुहोस्!';
+  String get needRestart => 'सेटिङ्हर�?लागू गर्न सर्भ�?पु�? सुरु गर्नुहोस�?';
   @override
-  String get server => 'सर्भर';
+  String get server => 'सर्भ�?;
   @override
-  String get alias => 'उपकरणको नाम';
+  String get alias => 'उपकरणक�?ना�?;
   @override
-  String get deviceType => 'उपकरणको प्रकार';
+  String get deviceType => 'उपकरणक�?प्रकार';
   @override
-  String get deviceModel => 'उपकरण मोडेल';
+  String get deviceModel => 'उपकर�?मोडे�?;
   @override
-  String get port => 'पोर्ट';
+  String get port => 'पोर्�?;
   @override
   String portWarning({required Object defaultPort}) =>
-      'आपको अन्य उपकर्णों द्वारा पहचाना नहीं जा सकता है क्योंकि आप कस्टम पोर्ट का उपयोग कर रहे हैं। (डिफ़ॉल्ट: ${defaultPort})';
+      'आपको अन्य उपकर्णों द्वारा पहचाना नही�?जा सकता है क्योंक�?आप कस्ट�?पोर्�?का उपयो�?कर रह�?हैं। (डिफ़ॉल्ट: ${defaultPort})';
   @override
   String get encryption => 'एनक्रिप्शन';
   @override
-  String get multicastGroup => 'मल्टीकास्ट';
+  String get multicastGroup => 'मल्टीकास्�?;
   @override
   String multicastGroupWarning({required Object defaultMulticast}) =>
-      'आप अन्य उपकर्णों द्वारा पहचाना नहीं जा सकता है क्योंकि आप कस्टम मल्टीकास्ट पता का उपयोग कर रहे हैं। (डिफ़ॉल्ट: ${defaultMulticast})';
+      'आप अन्य उपकर्णों द्वारा पहचाना नही�?जा सकता है क्योंक�?आप कस्ट�?मल्टीकास्�?पत�?का उपयो�?कर रह�?हैं। (डिफ़ॉल्ट: ${defaultMulticast})';
   @override
-  String get generateRandomAlias => 'अनियमित उपनाम उत्पन्न गर्नुहोस्';
+  String get generateRandomAlias => 'अनियमि�?उपना�?उत्पन्�?गर्नुहोस�?;
   @override
-  String get useSystemName => 'प्रणालीको नाम प्रयोग गर्नुहोस्';
+  String get useSystemName => 'प्रणालीको ना�?प्रयोग गर्नुहोस�?;
   @override
-  String get discoveryTimeout => 'डिस्कभरी टाइमआउट';
+  String get discoveryTimeout => 'डिस्कभरी टाइमआउ�?;
   @override
-  String get network => 'नेटवर्क';
+  String get network => 'नेटवर्�?;
   @override
   late final _TranslationsSettingsTabNetworkNetworkOptionsNe networkOptions = _TranslationsSettingsTabNetworkNetworkOptionsNe._(_root);
 }
@@ -966,7 +966,7 @@ class _TranslationsSettingsTabSendNe extends TranslationsSettingsTabSendEn {
   @override
   String get title => 'पठाउनुहोस्';
   @override
-  String get shareViaLinkAutoAccept => '"लिङ्क मार्फत साझेदारी" मोडमा स्वचालित रूपमा अनुरोधहरू स्वीकार गर्नुहोस्';
+  String get shareViaLinkAutoAccept => '"लिङ्�?मार्फत साझेदारी" मोडम�?स्वचालित रूपम�?अनुरोधहर�?स्वीका�?गर्नुहोस�?;
 }
 
 // Path: settingsTab.other
@@ -977,15 +977,15 @@ class _TranslationsSettingsTabOtherNe extends TranslationsSettingsTabOtherEn {
 
   // Translations
   @override
-  String get donate => 'दान गर्नुहोस्';
+  String get donate => 'दा�?गर्नुहोस�?;
   @override
   String get title => 'अन्य';
   @override
-  String get privacyPolicy => 'गोपनीयता नीति';
+  String get privacyPolicy => 'गोपनीयत�?नीति';
   @override
-  String get termsOfUse => 'प्रयोगका सर्तहरू';
+  String get termsOfUse => 'प्रयोगका सर्तहर�?;
   @override
-  String get support => 'LocalSend लाई समर्थन गर्नुहोस्';
+  String get support => 'LocalSend ला�?समर्थन गर्नुहोस�?;
 }
 
 // Path: troubleshootPage.firewall
@@ -996,12 +996,12 @@ class _TranslationsTroubleshootPageFirewallNe extends TranslationsTroubleshootPa
 
   // Translations
   @override
-  String get symptom => 'यो यन्त्रले अन्य यन्त्रहरूमा फाइलहरू पठाउन सक्छ तर अन्य यन्त्रहरूले यस यन्त्रमा फाइलहरू पठाउन सक्दैनन्।';
+  String get symptom => 'यो यन्त्रले अन्य यन्त्रहरूम�?फाइलहर�?पठाउ�?सक्छ तर अन्य यन्त्रहरूल�?यस यन्त्रमा फाइलहर�?पठाउ�?सक्दैनन्�?;
   @override
   String solution({required Object port}) =>
-      'यो सम्भवतः फायरवाल समस्या हो। तपाईंले पोर्ट ${port} मा आगमन जडानहरू (UDP र TCP) लाई अनुमति दिएर यो समाधान गर्न सक्नुहुन्छ।';
+      'यो सम्भवत�?फायरवा�?समस्या हो�?तपाईंल�?पोर्�?${port} मा आगमन जडानहर�?(UDP �?TCP) ला�?अनुमति दिएर यो समाधान गर्न सक्नुहुन्छ�?;
   @override
-  String get openFirewall => 'फायरवाल खोल्नुहोस्';
+  String get openFirewall => 'फायरवा�?खोल्नुहोस्';
 }
 
 // Path: troubleshootPage.noConnection
@@ -1012,10 +1012,10 @@ class _TranslationsTroubleshootPageNoConnectionNe extends TranslationsTroublesho
 
   // Translations
   @override
-  String get symptom => 'दुबै उपकरणहरूले एकअर्कालाई पत्ता लगाउन सक्दैनन् न त फाइलहरू साझेदारी गर्न सक्छन्।';
+  String get symptom => 'दुबै उपकरणहरूले एकअर्कालाई पत्त�?लगाउ�?सक्दैनन् �?�?फाइलहर�?साझेदारी गर्न सक्छन्�?;
   @override
   String get solution =>
-      'के समस्या दुवै तर्फ छ? यदि त्यसो हो भने, तपाईंले दुवै यन्त्रहरू एउटै Wi-Fi नेटवर्कमा छन् र एउटै कन्फिगरेसन (पोर्ट, मल्टिकास्ट ठेगाना, इन्क्रिप्शन) साझा गर्छन् भनी सुनिश्चित गर्नुपर्छ। पहुँच बिन्दु (AP) आइसोलेसनको कारणले Wi-Fi नेटवर्कले सहभागीहरू बीच सञ्चारलाई अनुमति नदिन सक्छ। यस अवस्थामा, यो विकल्प राउटरमा असक्षम पारिएको हुनुपर्छ।';
+      'के समस्या दुवै तर्फ �? यद�?त्यस�?हो भन�? तपाईंल�?दुवै यन्त्रहर�?एउटै Wi-Fi नेटवर्कम�?छन�?�?एउटै कन्फिगरेसन (पोर्�? मल्टिकास्ट ठेगाना, इन्क्रिप्श�? साझा गर्छन् भनी सुनिश्चि�?गर्नुपर्छ। पहुँ�?बिन्दु (AP) आइसोलेसनको कारणले Wi-Fi नेटवर्कल�?सहभागीहर�?बी�?सञ्चारला�?अनुमति नदिन सक्छ�?यस अवस्थामा, यो विकल्प राउटरम�?असक्षम पारिएक�?हुनुपर्छ�?;
 }
 
 // Path: troubleshootPage.noDiscovery
@@ -1026,10 +1026,10 @@ class _TranslationsTroubleshootPageNoDiscoveryNe extends TranslationsTroubleshoo
 
   // Translations
   @override
-  String get symptom => 'यो उपकरणले अन्य उपकरणहरू पत्ता लगाउन सक्दैन।';
+  String get symptom => 'यो उपकरणल�?अन्य उपकरणहरू पत्त�?लगाउ�?सक्दैन�?;
   @override
   String get solution =>
-      'कृपया सबै उपकरणहरू एउटै Wi-Fi नेटवर्कमा छन् र एउटै कन्फिगरेसन (पोर्ट, मल्टिकास्ट ठेगाना, इन्क्रिप्शन) साझा गर्छन् भनी सुनिश्चित गर्नुहोस्। तपाईं लक्षित उपकरणको IP ठेगाना म्यानुअल रूपमा टाइप गर्ने प्रयास गर्न सक्नुहुन्छ। यदि यसले काम गर्छ भने, यो उपकरणलाई मनपर्नेहरूमा थप्ने विचार गर्नुहोस् ताकि भविष्यमा यसलाई स्वचालित रूपमा पत्ता लगाउन सकियोस्।';
+      'कृपय�?सब�?उपकरणहरू एउटै Wi-Fi नेटवर्कम�?छन�?�?एउटै कन्फिगरेसन (पोर्�? मल्टिकास्ट ठेगाना, इन्क्रिप्श�? साझा गर्छन् भनी सुनिश्चि�?गर्नुहोस्। तपाई�?लक्षित उपकरणक�?IP ठेगाना म्यानुअल रूपम�?टाइप गर्न�?प्रयास गर्न सक्नुहुन्छ�?यद�?यसले का�?गर्छ भन�? यो उपकरणलाई मनपर्नेहरूमा थप्न�?विचा�?गर्नुहोस�?ताकि भविष्यमा यसला�?स्वचालित रूपम�?पत्त�?लगाउ�?सकियोस्।';
 }
 
 // Path: receiveHistoryPage.entryActions
@@ -1042,9 +1042,9 @@ class _TranslationsReceiveHistoryPageEntryActionsNe extends TranslationsReceiveH
   @override
   String get open => 'फाइल खोल्नुहोस्';
   @override
-  String get info => 'सूचना';
+  String get info => 'सूचन�?;
   @override
-  String get deleteFromHistory => 'इतिहासबाट मेटाउनुहोस्';
+  String get deleteFromHistory => 'इतिहासबा�?मेटाउनुहोस�?;
   @override
   String get showInFolder => 'फोल्डरमा हर्नुहोस';
 }
@@ -1059,11 +1059,11 @@ class _TranslationsProgressPageTotalNe extends TranslationsProgressPageTotalEn {
   @override
   late final _TranslationsProgressPageTotalTitleNe title = _TranslationsProgressPageTotalTitleNe._(_root);
   @override
-  String count({required Object curr, required Object n}) => 'फाइलहरू: ${curr} / ${n}';
+  String count({required Object curr, required Object n}) => 'फाइलहर�? ${curr} / ${n}';
   @override
   String size({required Object curr, required Object n}) => 'आकार: ${curr} / ${n}';
   @override
-  String speed({required Object speed}) => 'गति: ${speed}/s';
+  String speed({required Object speed}) => 'गत�? ${speed}/s';
 }
 
 // Path: dialogs.addFile
@@ -1074,9 +1074,9 @@ class _TranslationsDialogsAddFileNe extends TranslationsDialogsAddFileEn {
 
   // Translations
   @override
-  String get title => 'चयनमा थप्नुहोस्';
+  String get title => 'चयनम�?थप्नुहोस�?;
   @override
-  String get content => 'तपाईं के थप्न चाहनुहुन्छ?';
+  String get content => 'तपाई�?के थप्न चाहनुहुन्छ?';
 }
 
 // Path: dialogs.addressInput
@@ -1087,13 +1087,13 @@ class _TranslationsDialogsAddressInputNe extends TranslationsDialogsAddressInput
 
   // Translations
   @override
-  String get title => 'ठेगाना प्रविष्ट गर्नुहोस्';
+  String get title => 'ठेगाना प्रविष्ट गर्नुहोस�?;
   @override
   String get hashtag => 'ह्यासट्याग';
   @override
   String get ip => 'IP ठेगाना';
   @override
-  String get recentlyUsed => 'हालसालै प्रयोग गरिएको: ';
+  String get recentlyUsed => 'हालसाल�?प्रयोग गरिएको: ';
 }
 
 // Path: dialogs.cancelSession
@@ -1104,9 +1104,9 @@ class _TranslationsDialogsCancelSessionNe extends TranslationsDialogsCancelSessi
 
   // Translations
   @override
-  String get title => 'फाइल स्थानान्तरण रद्द गर्नुहोस्';
+  String get title => 'फाइल स्थानान्तर�?रद्द गर्नुहोस�?;
   @override
-  String get content => 'के तपाइँ साँच्चै फाइल स्थानान्तरण रद्द गर्न चाहनुहुन्छ?';
+  String get content => 'के तपाइ�?साँच्च�?फाइल स्थानान्तर�?रद्द गर्न चाहनुहुन्छ?';
 }
 
 // Path: dialogs.cannotOpenFile
@@ -1117,10 +1117,10 @@ class _TranslationsDialogsCannotOpenFileNe extends TranslationsDialogsCannotOpen
 
   // Translations
   @override
-  String get title => 'फ़ाइल नहीं खोल सकते';
+  String get title => 'फ़ाइ�?नही�?खो�?सकते';
   @override
   String content({required Object file}) =>
-      '"${file}" फ़ाइल नहीं खोल सकती। क्या इस फ़ाइल को हटा दिया गया है, नाम बदल दिया गया है या मिटा दिया गया है?';
+      '"${file}" फ़ाइ�?नही�?खो�?सकती�?क्या इस फ़ाइ�?को हट�?दिया गय�?है, ना�?बद�?दिया गय�?है या मिटा दिया गय�?है?';
 }
 
 // Path: dialogs.encryptionDisabledNotice
@@ -1131,10 +1131,10 @@ class _TranslationsDialogsEncryptionDisabledNoticeNe extends TranslationsDialogs
 
   // Translations
   @override
-  String get title => 'एन्क्रिप्शन अक्षम है';
+  String get title => 'एन्क्रिप्श�?अक्ष�?है';
   @override
   String get content =>
-      'अब संचरण बिना एनक्रिप्टों एचटीटीपी प्रोटोकॉल के माध्यम से होता है। एचटीटीपीएस का उपयोग करने के लिए, कृपया फिर से एन्क्रिप्शन सक्षम करें।';
+      'अब संचर�?बिना एनक्रिप्टो�?एचटीटीपी प्रोटोकॉ�?के माध्यम से होता है�?एचटीटीपीएस का उपयो�?करने के लि�? कृपय�?फि�?से एन्क्रिप्श�?सक्ष�?करें�?;
 }
 
 // Path: dialogs.errorDialog
@@ -1156,17 +1156,17 @@ class _TranslationsDialogsFileInfoNe extends TranslationsDialogsFileInfoEn {
 
   // Translations
   @override
-  String get title => 'फ़ाइल की जानकारी';
+  String get title => 'फ़ाइ�?की जानकारी';
   @override
-  String get fileName => 'फ़ाइल का नाम:';
+  String get fileName => 'फ़ाइ�?का ना�?';
   @override
   String get path => 'पथ:';
   @override
   String get size => 'आकार:';
   @override
-  String get sender => 'भेजने वाला:';
+  String get sender => 'भेजन�?वाला:';
   @override
-  String get time => 'समय:';
+  String get time => 'सम�?';
 }
 
 // Path: dialogs.fileNameInput
@@ -1177,9 +1177,9 @@ class _TranslationsDialogsFileNameInputNe extends TranslationsDialogsFileNameInp
 
   // Translations
   @override
-  String get title => 'फाइल नाम प्रविष्ट गर्नुहोस्';
+  String get title => 'फाइल ना�?प्रविष्ट गर्नुहोस�?;
   @override
-  String original({required Object original}) => 'मूल: ${original}';
+  String original({required Object original}) => 'मू�? ${original}';
 }
 
 // Path: dialogs.localNetworkUnauthorized
@@ -1193,7 +1193,7 @@ class _TranslationsDialogsLocalNetworkUnauthorizedNe extends TranslationsDialogs
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'LocalSend ले स्थानीय नेटवर्क स्क्यान गर्ने अनुमति बिना अन्य उपकरणहरू फेला पार्न सक्दैन। कृपया सेटिङहरूमा यो अनुमति दिनुहोस्।';
+      'LocalSend ले स्थानी�?नेटवर्�?स्क्या�?गर्न�?अनुमति बिना अन्य उपकरणहरू फेला पार्�?सक्दैन�?कृपय�?सेटिङहरूमा यो अनुमति दिनुहोस्�?;
   @override
   String get gotoSettings => 'सेटिंग्स';
 }
@@ -1206,9 +1206,9 @@ class _TranslationsDialogsMessageInputNe extends TranslationsDialogsMessageInput
 
   // Translations
   @override
-  String get title => 'सन्देश टाइप गर्नुहोस्';
+  String get title => 'सन्देश टाइप गर्नुहोस�?;
   @override
-  String get multiline => 'बहुरेखा';
+  String get multiline => 'बहुरेख�?;
 }
 
 // Path: dialogs.noFiles
@@ -1219,9 +1219,9 @@ class _TranslationsDialogsNoFilesNe extends TranslationsDialogsNoFilesEn {
 
   // Translations
   @override
-  String get title => 'कुनै फाइल चयन गरिएको छैन';
+  String get title => 'कुनै फाइल चय�?गरिएको छै�?;
   @override
-  String get content => 'कृपया कम्तिमा एउटा फाइल चयन गर्नुहोस्।';
+  String get content => 'कृपय�?कम्तिम�?एउटा फाइल चय�?गर्नुहोस्।';
 }
 
 // Path: dialogs.noPermission
@@ -1232,9 +1232,9 @@ class _TranslationsDialogsNoPermissionNe extends TranslationsDialogsNoPermission
 
   // Translations
   @override
-  String get title => 'अनुमति नहीं है';
+  String get title => 'अनुमति नही�?है';
   @override
-  String get content => 'तपाईंले आवश्यक अनुमतिहरूको प्रदान गर्न दिएको छैन। कृपया सेटिङहरूमा तिनीहरूलाई प्रदान गर्नुहोस्।';
+  String get content => 'तपाईंल�?आवश्यक अनुमतिहरूक�?प्रदान गर्न दिएक�?छैन। कृपय�?सेटिङहरूमा तिनीहरूलाई प्रदान गर्नुहोस्।';
 }
 
 // Path: dialogs.notAvailableOnPlatform
@@ -1245,9 +1245,9 @@ class _TranslationsDialogsNotAvailableOnPlatformNe extends TranslationsDialogsNo
 
   // Translations
   @override
-  String get title => 'उपलब्ध छैन';
+  String get title => 'उपलब्ध छै�?;
   @override
-  String get content => 'यो सुविधा निम्नमा मात्र उपलब्ध छ:';
+  String get content => 'यो सुविधा निम्नम�?मात्�?उपलब्ध �?';
 }
 
 // Path: dialogs.qr
@@ -1258,7 +1258,7 @@ class _TranslationsDialogsQrNe extends TranslationsDialogsQrEn {
 
   // Translations
   @override
-  String get title => 'QR कोड';
+  String get title => 'QR को�?;
 }
 
 // Path: dialogs.quickActions
@@ -1269,17 +1269,17 @@ class _TranslationsDialogsQuickActionsNe extends TranslationsDialogsQuickActions
 
   // Translations
   @override
-  String get title => 'द्रुत कार्यहरू';
+  String get title => 'द्रु�?कार्यहरू';
   @override
-  String get counter => 'काउन्टर';
+  String get counter => 'काउन्ट�?;
   @override
   String get prefix => 'उपसर्ग';
   @override
-  String get padZero => 'शून्य संग प्याड';
+  String get padZero => 'शून्�?सं�?प्या�?;
   @override
-  String get sortBeforeCount => 'पहिले वर्णमाला क्रमबद्ध गर्नुहोस्';
+  String get sortBeforeCount => 'पहिल�?वर्णमाला क्रमबद्ध गर्नुहोस�?;
   @override
-  String get random => 'अनियमित';
+  String get random => 'अनियमि�?;
 }
 
 // Path: dialogs.quickSaveNotice
@@ -1293,7 +1293,7 @@ class _TranslationsDialogsQuickSaveNoticeNe extends TranslationsDialogsQuickSave
   String get title => _root.general.quickSave;
   @override
   String get content =>
-      'फाइल अनुरोधहरू अब स्वचालित रूपमा स्वीकार गरिन्छन्। स्थानीय नेटवर्कमा भएका सबैले तपाईंलाई फाइलहरू पठाउन सक्छन् भन्ने कुरामा सचेत रहनुहोस्।';
+      'फाइल अनुरोधहर�?अब स्वचालित रूपम�?स्वीका�?गरिन्छन्�?स्थानी�?नेटवर्कम�?भएका सबैल�?तपाईंलाई फाइलहर�?पठाउ�?सक्छन् भन्न�?कुरामा सचेत रहनुहोस्�?;
 }
 
 // Path: dialogs.sendModeHelp
@@ -1306,11 +1306,11 @@ class _TranslationsDialogsSendModeHelpNe extends TranslationsDialogsSendModeHelp
   @override
   String get title => 'पठाउने मोडहरू';
   @override
-  String get single => 'एउटा प्राप्तकर्तालाई फाइलहरू पठाउँछ। फाइलहरू स्थानान्तरण सम्पन्न भएपछि चयन खाली गरिनेछ।';
+  String get single => 'एउटा प्राप्तकर्ताला�?फाइलहर�?पठाउँछ�?फाइलहर�?स्थानान्तर�?सम्पन्�?भएपछ�?चय�?खाली गरिनेछ�?;
   @override
-  String get multiple => 'धेरै प्राप्तकर्ताहरूलाई फाइलहरू पठाउँछ। फाइलहरू स्थानान्तरण समाप्त भएपछि चयन खाली गरिने छैन।';
+  String get multiple => 'धेरै प्राप्तकर्ताहरूलाई फाइलहर�?पठाउँछ�?फाइलहर�?स्थानान्तर�?समाप्त भएपछ�?चय�?खाली गरिन�?छैन।';
   @override
-  String get link => 'LocalSend इन्स्टल नगरेका प्राप्तकर्ताहरूले आफ्नो ब्राउजरमा लिङ्क खोलेर चयन गरिएका फाइलहरू डाउनलोड गर्न सक्छन्।';
+  String get link => 'LocalSend इन्स्ट�?नगरेका प्राप्तकर्ताहरूल�?आफ्न�?ब्राउजरम�?लिङ्�?खोले�?चय�?गरिएका फाइलहर�?डाउनलो�?गर्न सक्छन्�?;
 }
 
 // Path: dialogs.openFile
@@ -1323,7 +1323,7 @@ class _TranslationsDialogsOpenFileNe extends TranslationsDialogsOpenFileEn {
   @override
   String get title => 'फाइल खोल्नुहोस्';
   @override
-  String get content => 'के तपाईं प्राप्त फाइल खोल्न चाहनुहुन्छ?';
+  String get content => 'के तपाई�?प्राप्�?फाइल खोल्�?चाहनुहुन्छ?';
 }
 
 // Path: dialogs.favoriteDeleteDialog
@@ -1334,9 +1334,9 @@ class _TranslationsDialogsFavoriteDeleteDialogNe extends TranslationsDialogsFavo
 
   // Translations
   @override
-  String content({required Object name}) => 'के तपाईं साँच्चै मनपर्ने "${name}" बाट मेटाउन चाहनुहुन्छ?';
+  String content({required Object name}) => 'के तपाई�?साँच्च�?मनपर्न�?"${name}" बा�?मेटाउन चाहनुहुन्छ?';
   @override
-  String get title => 'मनपर्नेहरूबाट हटाउनुहोस्';
+  String get title => 'मनपर्नेहरूबा�?हटाउनुहोस्';
 }
 
 // Path: dialogs.favoriteDialog
@@ -1347,11 +1347,11 @@ class _TranslationsDialogsFavoriteDialogNe extends TranslationsDialogsFavoriteDi
 
   // Translations
   @override
-  String get addFavorite => 'थप्नुहोस्';
+  String get addFavorite => 'थप्नुहोस�?;
   @override
   String get title => 'मनपर्नेहरू';
   @override
-  String get noFavorites => 'अहिलेसम्म कुनै पनि मनपर्ने उपकरणहरू छैनन्।';
+  String get noFavorites => 'अहिलेसम्�?कुनै पन�?मनपर्न�?उपकरणहरू छैनन्।';
 }
 
 // Path: dialogs.favoriteEditDialog
@@ -1362,17 +1362,17 @@ class _TranslationsDialogsFavoriteEditDialogNe extends TranslationsDialogsFavori
 
   // Translations
   @override
-  String get titleAdd => 'मनपर्नेमा थप्नुहोस्';
+  String get titleAdd => 'मनपर्नेम�?थप्नुहोस�?;
   @override
   String get titleEdit => 'सेटिङहरू';
   @override
-  String get name => 'उपकरणको नाम';
+  String get name => 'उपकरणक�?ना�?;
   @override
   String get auto => '(स्वचालित)';
   @override
   String get ip => 'IP ठेगाना';
   @override
-  String get port => 'पोर्ट';
+  String get port => 'पोर्�?;
 }
 
 // Path: dialogs.historyClearDialog
@@ -1383,9 +1383,9 @@ class _TranslationsDialogsHistoryClearDialogNe extends TranslationsDialogsHistor
 
   // Translations
   @override
-  String get title => 'इतिहास खाली गर्नुहोस्';
+  String get title => 'इतिहास खाली गर्नुहोस�?;
   @override
-  String get content => 'के तपाईं साँच्चै सम्पूर्ण इतिहास मेटाउन चाहनुहुन्छ?';
+  String get content => 'के तपाई�?साँच्च�?सम्पूर्ण इतिहास मेटाउन चाहनुहुन्छ?';
 }
 
 // Path: dialogs.quickSaveFromFavoritesNotice
@@ -1397,9 +1397,9 @@ class _TranslationsDialogsQuickSaveFromFavoritesNoticeNe extends TranslationsDia
   // Translations
   @override
   List<String> get content => [
-    'फाइल अनुरोधहरू अब तपाईंको मनपर्ने सूचीमा रहेका उपकरणहरूबाट स्वचालित रूपमा स्वीकार गरिन्छन्।',
-    'चेतावनी! हाल, यो पूर्ण रूपमा सुरक्षित छैन, किनकि तपाईंको मनपर्ने सूचीबाट कुनै पनि उपकरणको फिंगरप्रिन्ट भएको ह्याकरले तपाईंलाई बिना प्रतिबन्ध फाइलहरू पठाउन सक्छ।',
-    'यद्यपि, यो विकल्प स्थानीय नेटवर्कमा रहेका सबै प्रयोगकर्ताहरूलाई तपाईंलाई कुनै प्रतिबन्ध बिना फाइलहरू पठाउन अनुमति दिनु भन्दा अझै सुरक्षित छ।',
+    'फाइल अनुरोधहर�?अब तपाईंक�?मनपर्न�?सूचीमा रहेक�?उपकरणहरूबा�?स्वचालित रूपम�?स्वीका�?गरिन्छन्�?,
+    'चेतावनी! हा�? यो पूर्�?रूपम�?सुरक्षित छै�? किनक�?तपाईंक�?मनपर्न�?सूचीबा�?कुनै पन�?उपकरणक�?फिंगरप्रिन्ट भएको ह्याकरले तपाईंलाई बिना प्रतिबन्�?फाइलहर�?पठाउ�?सक्छ�?,
+    'यद्यपि, यो विकल्प स्थानी�?नेटवर्कम�?रहेक�?सब�?प्रयोगकर्ताहरूला�?तपाईंलाई कुनै प्रतिबन्�?बिना फाइलहर�?पठाउ�?अनुमति दिनु भन्द�?अझ�?सुरक्षित छ।',
   ];
 }
 
@@ -1411,7 +1411,7 @@ class _TranslationsDialogsPinNe extends TranslationsDialogsPinEn {
 
   // Translations
   @override
-  String get title => 'पिन प्रविष्ट गर्नुहोस्';
+  String get title => 'पि�?प्रविष्ट गर्नुहोस�?;
 }
 
 // Path: dialogs.zoom
@@ -1437,7 +1437,7 @@ class _TranslationsSettingsTabGeneralBrightnessOptionsNe extends TranslationsSet
   @override
   String get dark => 'अँध्यारो';
   @override
-  String get light => 'उज्यालो';
+  String get light => 'उज्याल�?;
 }
 
 // Path: settingsTab.general.colorOptions
@@ -1450,7 +1450,7 @@ class _TranslationsSettingsTabGeneralColorOptionsNe extends TranslationsSettings
   @override
   String get system => 'सिस्टम';
   @override
-  String get oled => 'ओ एल ई डी';
+  String get oled => '�?एल �?डी';
 }
 
 // Path: settingsTab.general.languageOptions
@@ -1472,7 +1472,7 @@ class _TranslationsSettingsTabNetworkNetworkOptionsNe extends TranslationsSettin
 
   // Translations
   @override
-  String get all => 'सबै';
+  String get all => 'सब�?;
   @override
   String get filtered => 'फिल्टर गरिएको';
 }
@@ -1485,11 +1485,11 @@ class _TranslationsProgressPageTotalTitleNe extends TranslationsProgressPageTota
 
   // Translations
   @override
-  String sending({required Object time}) => 'कुल प्रगति (${time})';
+  String sending({required Object time}) => 'कु�?प्रगति (${time})';
   @override
-  String get finishedError => 'त्रुटि संग समाप्त भयो';
+  String get finishedError => 'त्रुटि सं�?समाप्त भय�?;
   @override
-  String get canceledSender => 'प्रेषकद्वारा रद्द गरियो';
+  String get canceledSender => 'प्रेषकद्वारा रद्द गरिय�?;
   @override
-  String get canceledReceiver => 'प्राप्तकर्ता द्वारा रद्द गरियो';
+  String get canceledReceiver => 'प्राप्तकर्ता द्वारा रद्द गरिय�?;
 }

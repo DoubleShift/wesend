@@ -367,7 +367,7 @@ class _TranslationsSendPagePtPt extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'A aguardar respostaâ€¦';
+  String get waiting => 'A aguardar respostaâ€?;
   @override
   String get rejected => 'O destinatÃ¡rio rejeitou o pedido.';
   @override
@@ -405,9 +405,9 @@ class _TranslationsWebSharePagePtPt extends TranslationsWebSharePageEn {
   @override
   String get title => 'Partilhe via link';
   @override
-  String get loading => 'A iniciar o servidorâ€¦';
+  String get loading => 'A iniciar o servidorâ€?;
   @override
-  String get stopping => 'A parar o servidorâ€¦';
+  String get stopping => 'A parar o servidorâ€?;
   @override
   String get error => 'Ocorreu um erro enquanto o servidor tentava iniciar.';
   @override
