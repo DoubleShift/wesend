@@ -7,7 +7,7 @@ import 'package:refena_flutter/refena_flutter.dart';
 import 'package:wesend_app/pages/send_page.dart';
 import 'package:wesend_app/provider/network/send_provider.dart';
 import 'package:wesend_app/model/cross_file.dart';
-import 'package:file_picker/file_picker.dart';
+import 'package:file_picker/file_picker.dart' show FilePicker;
 
 class ChatPage extends StatefulWidget {
   final Device device;
