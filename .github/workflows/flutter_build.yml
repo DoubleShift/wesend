@@ -1,4 +1,4 @@
-name: Build Flutter App
+name: Build Flutter App (ARM64)
 
 on:
   push:
@@ -9,12 +9,8 @@ on:
 
 jobs:
   build:
-    name: Build for ${{ matrix.os }}
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+    name: Build Android ARM64 APK
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -33,50 +29,12 @@ jobs:
         run: flutter analyze
         working-directory: app
 
-      - name: Build for Android (Linux)
-        if: runner.os == 'Linux'
-        run: flutter build apk --release
+      - name: Build Android APK (arm64-v8a)
+        run: flutter build apk --release --target-platform android-arm64
         working-directory: app
 
-      - name: Build for iOS (macOS)
-        if: runner.os == 'macOS'
-        run: flutter build ios --release --no-codesign
-        working-directory: app
-
-      - name: Build for macOS (macOS)
-        if: runner.os == 'macOS'
-        run: flutter build macos --release
-        working-directory: app
-
-      - name: Build for Windows (Windows)
-        if: runner.os == 'Windows'
-        run: flutter build windows --release
-        working-directory: app
-
-      - name: Upload Android APK
-        if: runner.os == 'Linux'
+      - name: Upload ARM64 APK
         uses: actions/upload-artifact@v4
         with:
-          name: wesend-android-apk
+          name: wesend-arm64-apk
           path: app/build/app/outputs/flutter-apk/*.apk
-
-      - name: Upload iOS build
-        if: runner.os == 'macOS'
-        uses: actions/upload-artifact@v4
-        with:
-          name: wesend-ios-build
-          path: app/build/ios/iphoneos/*.app
-
-      - name: Upload macOS build
-        if: runner.os == 'macOS'
-        uses: actions/upload-artifact@v4
-        with:
-          name: wesend-macos-build
-          path: app/build/macos/Build/Products/Release/*.app
-
-      - name: Upload Windows build
-        if: runner.os == 'Windows'
-        uses: actions/upload-artifact@v4
-        with:
-          name: wesend-windows-build
-          path: app/build/windows/runner/Release/
