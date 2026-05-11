@@ -365,7 +365,7 @@ class _TranslationsSendPageUk extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Очікування відповіді�?;
+  String get waiting => 'Очікування відповіді…';
   @override
   String get rejected => 'Отримувач відхилив запит.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageUk extends TranslationsWebSharePageEn {
   @override
   String get title => 'Поділитися через посилання';
   @override
-  String get loading => 'Запуск сервера�?;
+  String get loading => 'Запуск сервера…';
   @override
-  String get stopping => 'Зупинка сервера�?;
+  String get stopping => 'Зупинка сервера…';
   @override
   String get error => 'Під час запуску сервера сталася помилка.';
   @override

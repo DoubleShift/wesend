@@ -367,7 +367,7 @@ class _TranslationsSendPageMs extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Menunggu responsâ€?;
+  String get waiting => 'Menunggu responsâ€¦';
   @override
   String get rejected => 'Penerima telah menolak permintaan.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageMs extends TranslationsWebSharePageEn {
   @override
   String get title => 'Kongsi melalui pautan';
   @override
-  String get loading => 'Memulakan pelayanâ€?;
+  String get loading => 'Memulakan pelayanâ€¦';
   @override
-  String get stopping => 'Menghentikan pelayanâ€?;
+  String get stopping => 'Menghentikan pelayanâ€¦';
   @override
   String get error => 'Ralat telah berlaku ketika memulakan pelayan.';
   @override

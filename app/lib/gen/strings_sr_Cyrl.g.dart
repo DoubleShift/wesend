@@ -151,7 +151,7 @@ class _TranslationsGeneralSrCyrl extends TranslationsGeneralEn {
   @override
   String get quickSave => 'Брзо чување';
   @override
-  String get quickSaveFromFavorites => 'Брзо чување у „Омиљено�?;
+  String get quickSaveFromFavorites => 'Брзо чување у „Омиљено“';
   @override
   String get renamed => 'Преименовано';
   @override
@@ -367,7 +367,7 @@ class _TranslationsSendPageSrCyrl extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Чекање одговора�?;
+  String get waiting => 'Чекање одговора…';
   @override
   String get rejected => 'Прималац је одбио захтев.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageSrCyrl extends TranslationsWebSharePageEn {
   @override
   String get title => 'Дељење путем линка';
   @override
-  String get loading => 'Покретање сервера�?;
+  String get loading => 'Покретање сервера…';
   @override
-  String get stopping => 'Заустављање сервера�?;
+  String get stopping => 'Заустављање сервера…';
   @override
   String get error => 'Дошло је до грешке приликом покретања сервера.';
   @override
@@ -929,7 +929,7 @@ class _TranslationsSettingsTabSendSrCyrl extends TranslationsSettingsTabSendEn {
   @override
   String get title => 'Слање';
   @override
-  String get shareViaLinkAutoAccept => 'Аутоматски прихвати захтеве у режиму „Дељењ�?путем линка�?;
+  String get shareViaLinkAutoAccept => 'Аутоматски прихвати захтеве у режиму „Дељењ�?путем линка“';
 }
 
 // Path: settingsTab.network

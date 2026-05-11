@@ -365,7 +365,7 @@ class _TranslationsSendPageSi extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'ප්‍රතිචාරයක් බලාපොරොත්ත�?වෙමින්�?;
+  String get waiting => 'ප්‍රතිචාරයක් බලාපොරොත්ත�?වෙමින්…';
   @override
   String get rejected => 'ලැබුම්කර�?ඉල්ලීම ප්‍රතික්ෂේ�?කර ඇත.';
   @override
@@ -401,9 +401,9 @@ class _TranslationsWebSharePageSi extends TranslationsWebSharePageEn {
   @override
   String get title => 'ලින්ක් (Link) ඔස්ස�?බෙදාගන්න (Share)';
   @override
-  String get loading => 'සේවාදායකය ආරම්�?කරමින්�?;
+  String get loading => 'සේවාදායකය ආරම්�?කරමින්…';
   @override
-  String get stopping => 'සේවාදායකය නවතමින්�?;
+  String get stopping => 'සේවාදායකය නවතමින්…';
   @override
   String get error => 'සේවාදායකය ආරම්�?කිරීමේදී දෝෂයක් සිදු විය.';
   @override

@@ -149,7 +149,7 @@ class _TranslationsGeneralPl extends TranslationsGeneralEn {
   @override
   String get quickSave => 'Szybki zapis';
   @override
-  String get quickSaveFromFavorites => 'Szybki zapis dla „Ulubionych�?;
+  String get quickSaveFromFavorites => 'Szybki zapis dla „Ulubionych”';
   @override
   String get renamed => 'Przemianowany';
   @override
@@ -365,7 +365,7 @@ class _TranslationsSendPagePl extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Czekanie na odpowiedź�?;
+  String get waiting => 'Czekanie na odpowiedź…';
   @override
   String get rejected => 'Odbiorca odrzucił żądanie.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePagePl extends TranslationsWebSharePageEn {
   @override
   String get title => 'Udostępnij przez link';
   @override
-  String get loading => 'Uruchamianie serwera�?;
+  String get loading => 'Uruchamianie serwera…';
   @override
-  String get stopping => 'Zatrzymywanie serwera�?;
+  String get stopping => 'Zatrzymywanie serwera…';
   @override
   String get error => 'Wystąpił błąd podczas uruchamiania serwera.';
   @override

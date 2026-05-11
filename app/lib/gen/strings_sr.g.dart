@@ -151,7 +151,7 @@ class _TranslationsGeneralSr extends TranslationsGeneralEn {
   @override
   String get quickSave => 'Brzo čuvanje';
   @override
-  String get quickSaveFromFavorites => 'Brzo čuvanje u „Omiljeno�?;
+  String get quickSaveFromFavorites => 'Brzo čuvanje u „Omiljeno“';
   @override
   String get renamed => 'Preimenovano';
   @override
@@ -367,7 +367,7 @@ class _TranslationsSendPageSr extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Čekanje odgovora�?;
+  String get waiting => 'Čekanje odgovora…';
   @override
   String get rejected => 'Primalac je odbio zahtev.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageSr extends TranslationsWebSharePageEn {
   @override
   String get title => 'Deljenje putem linka';
   @override
-  String get loading => 'Pokretanje servera�?;
+  String get loading => 'Pokretanje servera…';
   @override
-  String get stopping => 'Zaustavljanje servera�?;
+  String get stopping => 'Zaustavljanje servera…';
   @override
   String get error => 'Došlo je do greške prilikom pokretanja servera.';
   @override
@@ -924,7 +924,7 @@ class _TranslationsSettingsTabSendSr extends TranslationsSettingsTabSendEn {
   @override
   String get title => 'Slanje';
   @override
-  String get shareViaLinkAutoAccept => 'Automatski prihvati zahteve u režimu „Deljenje putem linka�?;
+  String get shareViaLinkAutoAccept => 'Automatski prihvati zahteve u režimu „Deljenje putem linka“';
 }
 
 // Path: settingsTab.network

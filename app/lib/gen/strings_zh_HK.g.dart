@@ -365,7 +365,7 @@ class _TranslationsSendPageZhHk extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => '等緊回應…�?;
+  String get waiting => '等緊回應……';
   @override
   String get rejected => '對方拒絕咗個請求�?;
   @override
@@ -401,9 +401,9 @@ class _TranslationsWebSharePageZhHk extends TranslationsWebSharePageEn {
   @override
   String get title => _root.sendTab.sendModes.link;
   @override
-  String get loading => '開緊�?server…�?;
+  String get loading => '開緊�?server……';
   @override
-  String get stopping => '閂緊�?server…�?;
+  String get stopping => '閂緊�?server……';
   @override
   String get error => '�?server 嗰陣發生錯誤�?;
   @override

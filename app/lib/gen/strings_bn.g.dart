@@ -387,7 +387,7 @@ class _TranslationsSendPageBn extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'রেস্পন্সের অপেক্ষায়�?;
+  String get waiting => 'রেস্পন্সের অপেক্ষায়…';
   @override
   String get rejected => 'রিসিভা�?রিকুয়েস্টটি ক্যানসেল করেছে।';
   @override
@@ -425,9 +425,9 @@ class _TranslationsWebSharePageBn extends TranslationsWebSharePageEn {
   @override
   String get title => 'লিঙ্কে�?মাধ্যম�?শেয়ার করুন';
   @override
-  String get loading => 'সার্ভা�?চালু কর�?হচ্ছে�?;
+  String get loading => 'সার্ভা�?চালু কর�?হচ্ছে…';
   @override
-  String get stopping => 'সার্ভা�?বন্ধ কর�?হচ্ছে�?;
+  String get stopping => 'সার্ভা�?বন্ধ কর�?হচ্ছে…';
   @override
   String get error => 'সার্ভা�?চালু করার সময় একটি সমস্যা হয়েছে৷';
   @override

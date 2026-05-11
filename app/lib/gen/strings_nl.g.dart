@@ -365,7 +365,7 @@ class _TranslationsSendPageNl extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Wachten op antwoordâ€?;
+  String get waiting => 'Wachten op antwoordâ€¦';
   @override
   String get rejected => 'De ontvanger heeft het verzoek geweigerd.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageNl extends TranslationsWebSharePageEn {
   @override
   String get title => 'Delen via link';
   @override
-  String get loading => 'Server startenâ€?;
+  String get loading => 'Server startenâ€¦';
   @override
-  String get stopping => 'Server stoppenâ€?;
+  String get stopping => 'Server stoppenâ€¦';
   @override
   String get error => 'Er is een fout opgetreden bij het starten van de server.';
   @override

@@ -441,7 +441,7 @@ class TranslationsSendPageEn {
   // Translations
 
   /// en: 'Waiting for responseâ€?
-  String get waiting => 'Waiting for responseâ€?;
+  String get waiting => 'Waiting for responseâ€¦';
 
   /// en: 'The recipient has rejected the request.'
   String get rejected => 'The recipient has rejected the request.';
@@ -486,10 +486,10 @@ class TranslationsWebSharePageEn {
   String get title => 'Share via link';
 
   /// en: 'Starting serverâ€?
-  String get loading => 'Starting serverâ€?;
+  String get loading => 'Starting serverâ€¦';
 
   /// en: 'Stopping serverâ€?
-  String get stopping => 'Stopping serverâ€?;
+  String get stopping => 'Stopping serverâ€¦';
 
   /// en: 'An error occurred while starting the server.'
   String get error => 'An error occurred while starting the server.';

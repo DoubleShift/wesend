@@ -149,7 +149,7 @@ class _TranslationsGeneralEt extends TranslationsGeneralEn {
   @override
   String get quickSave => 'Kiirsalvestus';
   @override
-  String get quickSaveFromFavorites => 'Kiirsalvestamine „Lemmikutelt�?;
+  String get quickSaveFromFavorites => 'Kiirsalvestamine „Lemmikutelt“';
   @override
   String get renamed => 'Nimi on muudetud';
   @override
@@ -365,7 +365,7 @@ class _TranslationsSendPageEt extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Ootame vastust�?;
+  String get waiting => 'Ootame vastust…';
   @override
   String get rejected => 'Vastuvõtja on vastuvõtmisest keeldunud.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageEt extends TranslationsWebSharePageEn {
   @override
   String get title => 'Jaga lingi vahendusel';
   @override
-  String get loading => 'Käivitame serverit�?;
+  String get loading => 'Käivitame serverit…';
   @override
-  String get stopping => 'Peatame serverit�?;
+  String get stopping => 'Peatame serverit…';
   @override
   String get error => 'Serveri käivitamisel tekkis viga.';
   @override

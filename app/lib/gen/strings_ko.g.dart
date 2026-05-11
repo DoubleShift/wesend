@@ -384,7 +384,7 @@ class _TranslationsSendPageKo extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => '응답 대�?중�?;
+  String get waiting => '응답 대�?중…';
   @override
   String get rejected => '받는 사람�?요청�?거부했습니다';
   @override

@@ -365,7 +365,7 @@ class _TranslationsSendPageVi extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Đang ch�?phản hồi�?;
+  String get waiting => 'Đang ch�?phản hồi…';
   @override
   String get rejected => 'Người nhận đã t�?chối yêu cầu.';
   @override
@@ -401,9 +401,9 @@ class _TranslationsWebSharePageVi extends TranslationsWebSharePageEn {
   @override
   String get title => 'Chia s�?qua liên kết';
   @override
-  String get loading => 'Đang khởi tạo server�?;
+  String get loading => 'Đang khởi tạo server…';
   @override
-  String get stopping => 'Đang dừng server�?;
+  String get stopping => 'Đang dừng server…';
   @override
   String get error => 'Một lỗi đã xảy ra khi khởi tạo server.';
   @override

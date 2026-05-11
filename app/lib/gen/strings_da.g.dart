@@ -365,7 +365,7 @@ class _TranslationsSendPageDa extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Venter pÃ¥ svarâ€?;
+  String get waiting => 'Venter pÃ¥ svarâ€¦';
   @override
   String get rejected => 'Modtageren har afvist delingen.';
   @override
@@ -401,9 +401,9 @@ class _TranslationsWebSharePageDa extends TranslationsWebSharePageEn {
   @override
   String get title => 'Del med link';
   @override
-  String get loading => 'Starter serverâ€?;
+  String get loading => 'Starter serverâ€¦';
   @override
-  String get stopping => 'Stopper serverâ€?;
+  String get stopping => 'Stopper serverâ€¦';
   @override
   String get error => 'En fejl opstod, mens serveren blev startet.';
   @override

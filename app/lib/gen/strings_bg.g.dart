@@ -149,7 +149,7 @@ class _TranslationsGeneralBg extends TranslationsGeneralEn {
   @override
   String get quickSave => 'Бързо запазване';
   @override
-  String get quickSaveFromFavorites => 'Бързо запазване за „Любими�?;
+  String get quickSaveFromFavorites => 'Бързо запазване за „Любими“';
   @override
   String get renamed => 'Преименуван';
   @override
@@ -365,7 +365,7 @@ class _TranslationsSendPageBg extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'В очакване на отговор�?;
+  String get waiting => 'В очакване на отговор…';
   @override
   String get rejected => 'Получателят е отхвърлил заявката.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageBg extends TranslationsWebSharePageEn {
   @override
   String get title => 'Споделете чрез връзка';
   @override
-  String get loading => 'Стартиране на сървъра�?;
+  String get loading => 'Стартиране на сървъра…';
   @override
-  String get stopping => 'Спиране на сървъра�?;
+  String get stopping => 'Спиране на сървъра…';
   @override
   String get error => 'Възникна грешка при стартиране на сървъра.';
   @override

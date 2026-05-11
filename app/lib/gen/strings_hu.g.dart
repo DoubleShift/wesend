@@ -365,7 +365,7 @@ class _TranslationsSendPageHu extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Válaszra várva�?;
+  String get waiting => 'Válaszra várva…';
   @override
   String get rejected => 'A fogadó elutasította a kérelmet.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageHu extends TranslationsWebSharePageEn {
   @override
   String get title => 'Megosztás linkben';
   @override
-  String get loading => 'Szerver indítása�?;
+  String get loading => 'Szerver indítása…';
   @override
-  String get stopping => 'Szerver leállítása�?;
+  String get stopping => 'Szerver leállítása…';
   @override
   String get error => 'Hiba történt a szerver indításakor.';
   @override

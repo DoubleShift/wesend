@@ -367,7 +367,7 @@ class _TranslationsSendPageRo extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Așteptare răspuns�?;
+  String get waiting => 'Așteptare răspuns…';
   @override
   String get rejected => 'Destinatarul a respins cererea.';
   @override
@@ -403,9 +403,9 @@ class _TranslationsWebSharePageRo extends TranslationsWebSharePageEn {
   @override
   String get title => 'Partajează prin link';
   @override
-  String get loading => 'Pornirea serverului�?;
+  String get loading => 'Pornirea serverului…';
   @override
-  String get stopping => 'Oprirea serverului�?;
+  String get stopping => 'Oprirea serverului…';
   @override
   String get error => 'A apărut o eroare la pornirea serverului.';
   @override
@@ -922,7 +922,7 @@ class _TranslationsSettingsTabSendRo extends TranslationsSettingsTabSendEn {
   @override
   String get title => 'Trimite';
   @override
-  String get shareViaLinkAutoAccept => 'Acceptă automat cererile în modul „Partajare prin link�?;
+  String get shareViaLinkAutoAccept => 'Acceptă automat cererile în modul „Partajare prin link”';
 }
 
 // Path: settingsTab.network

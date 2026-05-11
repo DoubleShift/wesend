@@ -367,7 +367,7 @@ class _TranslationsSendPageSk extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Čaká sa na odpoveď�?;
+  String get waiting => 'Čaká sa na odpoveď…';
   @override
   String get rejected => 'Príjemca zamietol žiadosť.';
   @override
@@ -405,9 +405,9 @@ class _TranslationsWebSharePageSk extends TranslationsWebSharePageEn {
   @override
   String get title => 'Zdieľať cez odkaz';
   @override
-  String get loading => 'Spúšťa sa server�?;
+  String get loading => 'Spúšťa sa server…';
   @override
-  String get stopping => 'Zastavuje sa server�?;
+  String get stopping => 'Zastavuje sa server…';
   @override
   String get error => 'Pri spúšťaní servera sa vyskytla chyba.';
   @override

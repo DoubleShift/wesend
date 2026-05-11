@@ -365,7 +365,7 @@ class _TranslationsSendPageHe extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'ממתין לתגובה�?;
+  String get waiting => 'ממתין לתגובה…';
   @override
   String get rejected => 'הנמען דחה את הבקשה.';
   @override
@@ -401,9 +401,9 @@ class _TranslationsWebSharePageHe extends TranslationsWebSharePageEn {
   @override
   String get title => 'שיתוף באמצעות קישור';
   @override
-  String get loading => 'מפעיל את השרת�?;
+  String get loading => 'מפעיל את השרת…';
   @override
-  String get stopping => 'עוצר את השרת�?;
+  String get stopping => 'עוצר את השרת…';
   @override
   String get error => 'אירעה שגיאה בזמן הפעלת השרת.';
   @override

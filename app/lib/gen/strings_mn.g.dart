@@ -351,7 +351,7 @@ class _TranslationsSendPageMn extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Хариу хүлээж байна�?;
+  String get waiting => 'Хариу хүлээж байна…';
   @override
   String get rejected => 'Хүлээн авагч хүсэлтйиг татгалзлаа.';
   @override

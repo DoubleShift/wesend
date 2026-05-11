@@ -452,9 +452,9 @@ class _TranslationsWebSharePageGl extends TranslationsWebSharePageEn {
   @override
   String get title => 'Compartir mediante ligazÃ³n';
   @override
-  String get stopping => 'Parando o servidorâ€?;
+  String get stopping => 'Parando o servidorâ€¦';
   @override
-  String get loading => 'Iniciando servidorâ€?;
+  String get loading => 'Iniciando servidorâ€¦';
   @override
   String get error => 'Produciuse un erro ao iniciar o servidor.';
   @override
@@ -528,7 +528,7 @@ class _TranslationsSendPageGl extends TranslationsSendPageEn {
 
   // Translations
   @override
-  String get waiting => 'Agardando pola respostaâ€?;
+  String get waiting => 'Agardando pola respostaâ€¦';
   @override
   String get rejected => 'O destinatario rexeitou a solicitude.';
   @override
