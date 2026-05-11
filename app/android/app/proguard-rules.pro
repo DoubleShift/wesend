@@ -13,6 +13,9 @@
 -keepattributes *Annotation*
 -keep class * extends java.lang.Throwable { *; }
 
+# R8 full mode: ignore missing references instead of failing
+-ignorewarnings
+
 # Flutter engine references Play Core for deferred components
 # These are not needed for this app but R8 needs them to be ignored
 -dontwarn com.google.android.play.core.splitcompat.SplitCompatApplication
