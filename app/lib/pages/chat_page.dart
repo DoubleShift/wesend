@@ -88,7 +88,7 @@ class _ChatPageState extends State<ChatPage> with Refena {
 
     final crossFile = CrossFile(
       name: file.name,
-      fileType: FileType.unknown,
+      fileType: FileType.other,
       size: file.size,
       thumbnail: null,
       asset: null,

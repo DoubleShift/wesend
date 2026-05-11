@@ -1,5 +1,553 @@
-{
-  "message": "Must have admin rights to Repository.",
-  "documentation_url": "https://docs.github.com/rest/actions/workflow-jobs#download-job-logs-for-a-workflow-run",
-  "status": "403"
-}
+build_apk	Set up job	﻿2026-05-11T06:37:40.7969299Z Current runner version: '2.334.0'
+build_apk	Set up job	2026-05-11T06:37:40.7993774Z ##[group]Runner Image Provisioner
+build_apk	Set up job	2026-05-11T06:37:40.7994573Z Hosted Compute Agent
+build_apk	Set up job	2026-05-11T06:37:40.7995092Z Version: 20260213.493
+build_apk	Set up job	2026-05-11T06:37:40.7995635Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+build_apk	Set up job	2026-05-11T06:37:40.7996274Z Build Date: 2026-02-13T00:28:41Z
+build_apk	Set up job	2026-05-11T06:37:40.7997089Z Worker ID: {f5add185-695c-4cf7-8415-d621dadea36f}
+build_apk	Set up job	2026-05-11T06:37:40.7997739Z Azure Region: centralus
+build_apk	Set up job	2026-05-11T06:37:40.7998379Z ##[endgroup]
+build_apk	Set up job	2026-05-11T06:37:40.7999764Z ##[group]Operating System
+build_apk	Set up job	2026-05-11T06:37:40.8000303Z Ubuntu
+build_apk	Set up job	2026-05-11T06:37:40.8000748Z 22.04.5
+build_apk	Set up job	2026-05-11T06:37:40.8001161Z LTS
+build_apk	Set up job	2026-05-11T06:37:40.8001539Z ##[endgroup]
+build_apk	Set up job	2026-05-11T06:37:40.8002084Z ##[group]Runner Image
+build_apk	Set up job	2026-05-11T06:37:40.8002532Z Image: ubuntu-22.04
+build_apk	Set up job	2026-05-11T06:37:40.8002996Z Version: 20260413.88.1
+build_apk	Set up job	2026-05-11T06:37:40.8003886Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20260413.88/images/ubuntu/Ubuntu2204-Readme.md
+build_apk	Set up job	2026-05-11T06:37:40.8005265Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20260413.88
+build_apk	Set up job	2026-05-11T06:37:40.8006047Z ##[endgroup]
+build_apk	Set up job	2026-05-11T06:37:40.8007128Z ##[group]GITHUB_TOKEN Permissions
+build_apk	Set up job	2026-05-11T06:37:40.8009247Z Contents: read
+build_apk	Set up job	2026-05-11T06:37:40.8009741Z Metadata: read
+build_apk	Set up job	2026-05-11T06:37:40.8010144Z Packages: read
+build_apk	Set up job	2026-05-11T06:37:40.8010637Z ##[endgroup]
+build_apk	Set up job	2026-05-11T06:37:40.8012695Z Secret source: Actions
+build_apk	Set up job	2026-05-11T06:37:40.8013344Z Prepare workflow directory
+build_apk	Set up job	2026-05-11T06:37:40.8391157Z Prepare all required actions
+build_apk	Set up job	2026-05-11T06:37:40.8429316Z Getting action download info
+build_apk	Set up job	2026-05-11T06:37:41.3160452Z Download action repository 'actions/checkout@v6' (SHA:de0fac2e4500dabe0009e67214ff5f5447ce83dd)
+build_apk	Set up job	2026-05-11T06:37:41.4600688Z Download action repository 'actions/setup-java@v5' (SHA:be666c2fcd27ec809703dec50e508c2fdc7f6654)
+build_apk	Set up job	2026-05-11T06:37:41.9594882Z Download action repository 'subosito/flutter-action@v2' (SHA:1a449444c387b1966244ae4d4f8c696479add0b2)
+build_apk	Set up job	2026-05-11T06:37:42.1946846Z Download action repository 'actions-rs/toolchain@v1' (SHA:16499b5e05bf2e26879000db0c1d13f7e13fa3af)
+build_apk	Set up job	2026-05-11T06:37:42.4842004Z Download action repository 'actions/upload-artifact@v6' (SHA:b7c566a772e6b6bfb58ed0dc250532a479d7789f)
+build_apk	Set up job	2026-05-11T06:37:42.6965963Z Getting action download info
+build_apk	Set up job	2026-05-11T06:37:42.8626262Z Download action repository 'actions/cache@v5' (SHA:27d5ce7f107fe9357f9df03efb73ab90386fccae)
+build_apk	Set up job	2026-05-11T06:37:43.3591347Z Complete job name: build_apk
+build_apk	Run actions/checkout@v6	﻿2026-05-11T06:37:43.4324433Z ##[group]Run actions/checkout@v6
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4326292Z with:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4327511Z   repository: DoubleShift/wesend
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4329227Z   token: ***
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4330106Z   ssh-strict: true
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4331353Z   ssh-user: git
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4332663Z   persist-credentials: true
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4333999Z   clean: true
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4334991Z   sparse-checkout-cone-mode: true
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4336347Z   fetch-depth: 1
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4337416Z   fetch-tags: false
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4338428Z   show-progress: true
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4339390Z   lfs: false
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4340297Z   submodules: false
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4341290Z   set-safe-directory: true
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4342464Z env:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4343101Z   FLUTTER_VERSION: 3.35.6
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4343842Z   RUST_VERSION: 1.84.1
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.4344525Z ##[endgroup]
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5332159Z Syncing repository: DoubleShift/wesend
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5334452Z ##[group]Getting Git version info
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5335602Z Working directory is '/home/runner/work/wesend/wesend'
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5337523Z [command]/usr/bin/git version
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5381361Z git version 2.53.0
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5401500Z ##[endgroup]
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5413986Z Temporarily overriding HOME='/home/runner/work/_temp/8bc16c8a-ec70-48a3-9f53-a33afcb173ff' before making global git config changes
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5416853Z Adding repository directory to the temporary git global config as a safe directory
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5419141Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/wesend/wesend
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5449537Z Deleting the contents of '/home/runner/work/wesend/wesend'
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5453136Z ##[group]Initializing the repository
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5457391Z [command]/usr/bin/git init /home/runner/work/wesend/wesend
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5557283Z hint: Using 'master' as the name for the initial branch. This default branch name
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5560020Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5561557Z hint: to use in all of your new repositories, which will suppress this warning,
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5563330Z hint: call:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5563936Z hint:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5564713Z hint: 	git config --global init.defaultBranch <name>
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5565647Z hint:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5566756Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5569019Z hint: 'development'. The just-created branch can be renamed via this command:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5570216Z hint:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5570835Z hint: 	git branch -m <name>
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5571545Z hint:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5572510Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5574025Z Initialized empty Git repository in /home/runner/work/wesend/wesend/.git/
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5576732Z [command]/usr/bin/git remote add origin https://github.com/DoubleShift/wesend
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5598594Z ##[endgroup]
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5599831Z ##[group]Disabling automatic garbage collection
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5601401Z [command]/usr/bin/git config --local gc.auto 0
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5627736Z ##[endgroup]
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5629746Z ##[group]Setting up auth
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5631170Z Removing SSH command configuration
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5634274Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5660726Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5926142Z Removing HTTP extra header
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5931434Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.5956293Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6113234Z Removing includeIf entries pointing to credentials config files
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6118533Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6144749Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6309612Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6338373Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/wesend/wesend/.git.path /home/runner/work/_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6361029Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/wesend/wesend/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6384876Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6408116Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6427163Z ##[endgroup]
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6428539Z ##[group]Fetching the repository
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:43.6435647Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +7e93eed2aa55c09cc8491f6ffabbefb431fef352:refs/remotes/origin/main
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.4937863Z From https://github.com/DoubleShift/wesend
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.4940793Z  * [new ref]         7e93eed2aa55c09cc8491f6ffabbefb431fef352 -> origin/main
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.4980417Z [command]/usr/bin/git branch --list --remote origin/main
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5008324Z   origin/main
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5017615Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5035525Z 7e93eed2aa55c09cc8491f6ffabbefb431fef352
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5040373Z ##[endgroup]
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5042392Z ##[group]Determining the checkout info
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5044569Z ##[endgroup]
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5046288Z [command]/usr/bin/git sparse-checkout disable
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5082056Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5114757Z ##[group]Checking out the ref
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5116907Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5960260Z Switched to a new branch 'main'
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5960970Z branch 'main' set up to track 'origin/main'.
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.5967540Z ##[endgroup]
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.6002461Z [command]/usr/bin/git log -1 --format=%H
+build_apk	Run actions/checkout@v6	2026-05-11T06:37:44.6020773Z 7e93eed2aa55c09cc8491f6ffabbefb431fef352
+build_apk	Remove proprietary dependencies	﻿2026-05-11T06:37:44.6180751Z ##[group]Run sh scripts/remove_proprietary_dependencies.sh
+build_apk	Remove proprietary dependencies	2026-05-11T06:37:44.6181370Z ^[[36;1msh scripts/remove_proprietary_dependencies.sh^[[0m
+build_apk	Remove proprietary dependencies	2026-05-11T06:37:44.6229087Z shell: /usr/bin/bash -e {0}
+build_apk	Remove proprietary dependencies	2026-05-11T06:37:44.6229471Z env:
+build_apk	Remove proprietary dependencies	2026-05-11T06:37:44.6229751Z   FLUTTER_VERSION: 3.35.6
+build_apk	Remove proprietary dependencies	2026-05-11T06:37:44.6230050Z   RUST_VERSION: 1.84.1
+build_apk	Remove proprietary dependencies	2026-05-11T06:37:44.6230334Z ##[endgroup]
+build_apk	Remove proprietary dependencies	2026-05-11T06:37:44.6421800Z Proprietary dependencies removed.
+build_apk	Set up JDK 17	﻿2026-05-11T06:37:44.6532914Z ##[group]Run actions/setup-java@v5
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6533527Z with:
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6533845Z   distribution: temurin
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6534220Z   java-version: 17
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6534635Z   java-package: jdk
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6534968Z   check-latest: false
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6535323Z   server-id: github
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6535708Z   server-username: GITHUB_ACTOR
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6536124Z   server-password: GITHUB_TOKEN
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6537255Z   overwrite-settings: true
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6537739Z   job-status: success
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6538309Z   token: ***
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6538620Z env:
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6539008Z   FLUTTER_VERSION: 3.35.6
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6539360Z   RUST_VERSION: 1.84.1
+build_apk	Set up JDK 17	2026-05-11T06:37:44.6539726Z ##[endgroup]
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8064031Z ##[group]Installed distributions
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8125342Z Resolved Java 17.0.18+8 from tool-cache
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8126191Z Setting Java 17.0.18+8 as the default
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8136185Z Creating toolchains.xml for JDK version 17 from temurin
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8212126Z Writing to /home/runner/.m2/toolchains.xml
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8212638Z 
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8212959Z Java configuration:
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8213460Z   Distribution: temurin
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8213998Z   Version: 17.0.18+8
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8214621Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8215074Z 
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8215470Z ##[endgroup]
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8228442Z Creating settings.xml with server-id: github
+build_apk	Set up JDK 17	2026-05-11T06:37:44.8229185Z Writing to /home/runner/.m2/settings.xml
+build_apk	Install Flutter	﻿2026-05-11T06:37:44.8452760Z ##[group]Run subosito/flutter-action@v2
+build_apk	Install Flutter	2026-05-11T06:37:44.8453138Z with:
+build_apk	Install Flutter	2026-05-11T06:37:44.8453482Z   flutter-version: 3.35.6
+build_apk	Install Flutter	2026-05-11T06:37:44.8453787Z   channel: stable
+build_apk	Install Flutter	2026-05-11T06:37:44.8454082Z   architecture: X64
+build_apk	Install Flutter	2026-05-11T06:37:44.8454406Z   cache: false
+build_apk	Install Flutter	2026-05-11T06:37:44.8454688Z   pub-cache-path: default
+build_apk	Install Flutter	2026-05-11T06:37:44.8455019Z   dry-run: false
+build_apk	Install Flutter	2026-05-11T06:37:44.8455479Z   git-source: https://github.com/flutter/flutter.git
+build_apk	Install Flutter	2026-05-11T06:37:44.8455904Z env:
+build_apk	Install Flutter	2026-05-11T06:37:44.8456168Z   FLUTTER_VERSION: 3.35.6
+build_apk	Install Flutter	2026-05-11T06:37:44.8456477Z   RUST_VERSION: 1.84.1
+build_apk	Install Flutter	2026-05-11T06:37:44.8457128Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Flutter	2026-05-11T06:37:44.8457728Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Flutter	2026-05-11T06:37:44.8458170Z ##[endgroup]
+build_apk	Install Flutter	2026-05-11T06:37:44.8552913Z ##[group]Run chmod +x "$GITHUB_ACTION_PATH/setup.sh"
+build_apk	Install Flutter	2026-05-11T06:37:44.8553437Z ^[[36;1mchmod +x "$GITHUB_ACTION_PATH/setup.sh"^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8595395Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+build_apk	Install Flutter	2026-05-11T06:37:44.8595857Z env:
+build_apk	Install Flutter	2026-05-11T06:37:44.8596165Z   FLUTTER_VERSION: 3.35.6
+build_apk	Install Flutter	2026-05-11T06:37:44.8596600Z   RUST_VERSION: 1.84.1
+build_apk	Install Flutter	2026-05-11T06:37:44.8597023Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Flutter	2026-05-11T06:37:44.8597607Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Flutter	2026-05-11T06:37:44.8598031Z ##[endgroup]
+build_apk	Install Flutter	2026-05-11T06:37:44.8715162Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh -p \
+build_apk	Install Flutter	2026-05-11T06:37:44.8715676Z ^[[36;1m$GITHUB_ACTION_PATH/setup.sh -p \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8716085Z ^[[36;1m  -n '3.35.6' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8716374Z ^[[36;1m  -f '' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8810620Z ^[[36;1m  -a 'X64' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8811211Z ^[[36;1m  -k '' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8811631Z ^[[36;1m  -c '' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8811960Z ^[[36;1m  -l '' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8812303Z ^[[36;1m  -d 'default' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8812903Z ^[[36;1m  -g 'https://github.com/flutter/flutter.git' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8813543Z ^[[36;1m  stable^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:44.8858932Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+build_apk	Install Flutter	2026-05-11T06:37:44.8859301Z env:
+build_apk	Install Flutter	2026-05-11T06:37:44.8859512Z   FLUTTER_VERSION: 3.35.6
+build_apk	Install Flutter	2026-05-11T06:37:44.8859773Z   RUST_VERSION: 1.84.1
+build_apk	Install Flutter	2026-05-11T06:37:44.8860116Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Flutter	2026-05-11T06:37:44.8860614Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Flutter	2026-05-11T06:37:44.8860981Z ##[endgroup]
+build_apk	Install Flutter	2026-05-11T06:37:45.5129835Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh \
+build_apk	Install Flutter	2026-05-11T06:37:45.5130226Z ^[[36;1m$GITHUB_ACTION_PATH/setup.sh \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:45.5130518Z ^[[36;1m  -n '3.35.6' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:45.5130760Z ^[[36;1m  -a 'x64' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:45.5131086Z ^[[36;1m  -c '/opt/hostedtoolcache/flutter/stable-3.35.6-x64' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:45.5131447Z ^[[36;1m  -d '/home/runner/.pub-cache' \^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:45.5131740Z ^[[36;1m  stable^[[0m
+build_apk	Install Flutter	2026-05-11T06:37:45.5169974Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+build_apk	Install Flutter	2026-05-11T06:37:45.5170352Z env:
+build_apk	Install Flutter	2026-05-11T06:37:45.5170568Z   FLUTTER_VERSION: 3.35.6
+build_apk	Install Flutter	2026-05-11T06:37:45.5170833Z   RUST_VERSION: 1.84.1
+build_apk	Install Flutter	2026-05-11T06:37:45.5171179Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Flutter	2026-05-11T06:37:45.5171681Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Flutter	2026-05-11T06:37:45.5172062Z ##[endgroup]
+build_apk	Install Flutter	2026-05-11T06:37:46.1592368Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+build_apk	Install Flutter	2026-05-11T06:37:46.1593385Z                                  Dload  Upload   Total   Spent    Left  Speed
+build_apk	Install Flutter	2026-05-11T06:37:46.1593809Z 
+build_apk	Install Flutter	2026-05-11T06:37:46.4236003Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+build_apk	Install Flutter	2026-05-11T06:37:47.4229642Z   0 1372M    0 94359    0     0   348k      0  1:07:15 --:--:--  1:07:15  347k
+build_apk	Install Flutter	2026-05-11T06:37:48.4229560Z   3 1372M    3 50.4M    0     0  39.8M      0  0:00:34  0:00:01  0:00:33 39.8M
+build_apk	Install Flutter	2026-05-11T06:37:49.4236792Z   6 1372M    6 89.9M    0     0  39.7M      0  0:00:34  0:00:02  0:00:32 39.7M
+build_apk	Install Flutter	2026-05-11T06:37:50.4233775Z   9 1372M    9  136M    0     0  41.8M      0  0:00:32  0:00:03  0:00:29 41.8M
+build_apk	Install Flutter	2026-05-11T06:37:51.4229179Z  14 1372M   14  196M    0     0  46.1M      0  0:00:29  0:00:04  0:00:25 46.0M
+build_apk	Install Flutter	2026-05-11T06:37:52.5256719Z  20 1372M   20  274M    0     0  52.1M      0  0:00:26  0:00:05  0:00:21 54.9M
+build_apk	Install Flutter	2026-05-11T06:37:53.4228601Z  29 1372M   29  410M    0     0  64.4M      0  0:00:21  0:00:06  0:00:15 70.4M
+build_apk	Install Flutter	2026-05-11T06:37:54.4230752Z  40 1372M   40  549M    0     0  75.5M      0  0:00:18  0:00:07  0:00:11 91.8M
+build_apk	Install Flutter	2026-05-11T06:37:55.4229197Z  50 1372M   50  698M    0     0  84.5M      0  0:00:16  0:00:08  0:00:08  112M
+build_apk	Install Flutter	2026-05-11T06:37:56.4229500Z  61 1372M   61  838M    0     0  90.5M      0  0:00:15  0:00:09  0:00:06  128M
+build_apk	Install Flutter	2026-05-11T06:37:57.4241199Z  72 1372M   72  992M    0     0  96.7M      0  0:00:14  0:00:10  0:00:04  143M
+build_apk	Install Flutter	2026-05-11T06:37:58.4234100Z  82 1372M   82 1131M    0     0   100M      0  0:00:13  0:00:11  0:00:02  147M
+build_apk	Install Flutter	2026-05-11T06:37:59.4231101Z  86 1372M   86 1189M    0     0  96.9M      0  0:00:14  0:00:12  0:00:02  128M
+build_apk	Install Flutter	2026-05-11T06:38:00.4231452Z  89 1372M   89 1230M    0     0  92.7M      0  0:00:14  0:00:13  0:00:01  106M
+build_apk	Install Flutter	2026-05-11T06:38:00.9462826Z  95 1372M   95 1309M    0     0  91.8M      0  0:00:14  0:00:14 --:--:-- 94.1M
+build_apk	Install Flutter	2026-05-11T06:38:00.9463593Z 100 1372M  100 1372M    0     0  92.8M      0  0:00:14  0:00:14 --:--:-- 84.0M
+build_apk	Install Rust	﻿2026-05-11T06:38:52.7402581Z ##[group]Run actions-rs/toolchain@v1
+build_apk	Install Rust	2026-05-11T06:38:52.7402885Z with:
+build_apk	Install Rust	2026-05-11T06:38:52.7403060Z   toolchain: stable
+build_apk	Install Rust	2026-05-11T06:38:52.7403237Z   override: 1.84.1
+build_apk	Install Rust	2026-05-11T06:38:52.7403410Z   default: false
+build_apk	Install Rust	2026-05-11T06:38:52.7403581Z env:
+build_apk	Install Rust	2026-05-11T06:38:52.7403739Z   FLUTTER_VERSION: 3.35.6
+build_apk	Install Rust	2026-05-11T06:38:52.7403935Z   RUST_VERSION: 1.84.1
+build_apk	Install Rust	2026-05-11T06:38:52.7404218Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Rust	2026-05-11T06:38:52.7404670Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Install Rust	2026-05-11T06:38:52.7405089Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.35.6-x64/flutter
+build_apk	Install Rust	2026-05-11T06:38:52.7405440Z   PUB_CACHE: /home/runner/.pub-cache
+build_apk	Install Rust	2026-05-11T06:38:52.7405655Z ##[endgroup]
+build_apk	Install Rust	2026-05-11T06:38:52.8378789Z [command]/home/runner/.cargo/bin/rustup show
+build_apk	Install Rust	2026-05-11T06:38:52.9040614Z Default host: x86_64-unknown-linux-gnu
+build_apk	Install Rust	2026-05-11T06:38:52.9042055Z rustup home:  /home/runner/.rustup
+build_apk	Install Rust	2026-05-11T06:38:52.9042612Z 
+build_apk	Install Rust	2026-05-11T06:38:52.9345580Z installed toolchains
+build_apk	Install Rust	2026-05-11T06:38:52.9346006Z --------------------
+build_apk	Install Rust	2026-05-11T06:38:52.9346403Z stable-x86_64-unknown-linux-gnu (active, default)
+build_apk	Install Rust	2026-05-11T06:38:52.9346917Z 
+build_apk	Install Rust	2026-05-11T06:38:52.9347073Z active toolchain
+build_apk	Install Rust	2026-05-11T06:38:52.9347402Z ----------------
+build_apk	Install Rust	2026-05-11T06:38:52.9347739Z name: stable-x86_64-unknown-linux-gnu
+build_apk	Install Rust	2026-05-11T06:38:52.9348182Z active because: it's the default toolchain
+build_apk	Install Rust	2026-05-11T06:38:52.9348609Z installed targets:
+build_apk	Install Rust	2026-05-11T06:38:52.9348935Z   x86_64-unknown-linux-gnu
+build_apk	Install Rust	2026-05-11T06:38:52.9470563Z [command]/home/runner/.cargo/bin/rustup toolchain install stable
+build_apk	Install Rust	2026-05-11T06:38:53.1183393Z info: syncing channel updates for stable-x86_64-unknown-linux-gnu
+build_apk	Install Rust	2026-05-11T06:38:53.4427479Z info: latest update on 2026-04-16 for version 1.95.0 (59807616e 2026-04-14)
+build_apk	Install Rust	2026-05-11T06:38:53.4586420Z info: removing previous version of component clippy
+build_apk	Install Rust	2026-05-11T06:38:53.4638743Z info: removing previous version of component rustfmt
+build_apk	Install Rust	2026-05-11T06:38:53.4647372Z info: removing previous version of component cargo
+build_apk	Install Rust	2026-05-11T06:38:53.4678945Z info: removing previous version of component rust-std
+build_apk	Install Rust	2026-05-11T06:38:53.4748158Z info: removing previous version of component rustc
+build_apk	Install Rust	2026-05-11T06:38:53.4780152Z info: downloading 5 components
+build_apk	Install Rust	2026-05-11T06:39:02.4968084Z 
+build_apk	Install Rust	2026-05-11T06:39:02.5061273Z   stable-x86_64-unknown-linux-gnu updated - rustc 1.95.0 (59807616e 2026-04-14) (from rustc 1.94.1 (e408947bf 2026-03-25))
+build_apk	Install Rust	2026-05-11T06:39:02.5062101Z 
+build_apk	Install Rust	2026-05-11T06:39:02.5089554Z ##[group]Gathering installed versions
+build_apk	Install Rust	2026-05-11T06:39:02.5102799Z [command]/home/runner/.cargo/bin/rustc -V
+build_apk	Install Rust	2026-05-11T06:39:02.5226407Z rustc 1.95.0 (59807616e 2026-04-14)
+build_apk	Install Rust	2026-05-11T06:39:02.5258196Z ##[warning]The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+build_apk	Install Rust	2026-05-11T06:39:02.5269041Z ##[warning]The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+build_apk	Install Rust	2026-05-11T06:39:02.5270496Z [command]/home/runner/.cargo/bin/cargo -V
+build_apk	Install Rust	2026-05-11T06:39:02.5341683Z cargo 1.95.0 (f2d3ce0bd 2026-03-21)
+build_apk	Install Rust	2026-05-11T06:39:02.5352262Z ##[warning]The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+build_apk	Install Rust	2026-05-11T06:39:02.5359757Z [command]/home/runner/.cargo/bin/rustup -V
+build_apk	Install Rust	2026-05-11T06:39:02.5400451Z rustup 1.29.0 (28d1352db 2026-03-05)
+build_apk	Install Rust	2026-05-11T06:39:02.5401112Z info: This is the version for the rustup toolchain manager, not the rustc compiler.
+build_apk	Install Rust	2026-05-11T06:39:02.5494612Z info: the currently active `rustc` version is `rustc 1.95.0 (59807616e 2026-04-14)`
+build_apk	Install Rust	2026-05-11T06:39:02.5506819Z ##[warning]The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+build_apk	Install Rust	2026-05-11T06:39:02.5510206Z ##[endgroup]
+build_apk	Dependencies	﻿2026-05-11T06:39:02.5569089Z ##[group]Run flutter pub get
+build_apk	Dependencies	2026-05-11T06:39:02.5569341Z ^[[36;1mflutter pub get^[[0m
+build_apk	Dependencies	2026-05-11T06:39:02.5602024Z shell: /usr/bin/bash -e {0}
+build_apk	Dependencies	2026-05-11T06:39:02.5602252Z env:
+build_apk	Dependencies	2026-05-11T06:39:02.5602427Z   FLUTTER_VERSION: 3.35.6
+build_apk	Dependencies	2026-05-11T06:39:02.5602620Z   RUST_VERSION: 1.84.1
+build_apk	Dependencies	2026-05-11T06:39:02.5602912Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Dependencies	2026-05-11T06:39:02.5603338Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Dependencies	2026-05-11T06:39:02.5603773Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.35.6-x64/flutter
+build_apk	Dependencies	2026-05-11T06:39:02.5604113Z   PUB_CACHE: /home/runner/.pub-cache
+build_apk	Dependencies	2026-05-11T06:39:02.5604328Z ##[endgroup]
+build_apk	Dependencies	2026-05-11T06:39:10.0361171Z Resolving dependencies...
+build_apk	Dependencies	2026-05-11T06:39:14.8397854Z Downloading packages...
+build_apk	Dependencies	2026-05-11T06:39:29.6663928Z > _fe_analyzer_shared 86.0.0 (was 85.0.0) (100.0.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6664492Z ! analyzer 8.0.0 (overridden) (13.0.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6664862Z   archive 4.0.7 (4.0.9 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6665317Z   args 2.6.0 (2.7.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6665700Z   assorted_layout_widgets 11.0.0 (12.6.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6666085Z   async 2.13.0 (2.13.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6666371Z   basic_utils 5.7.0 (5.8.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6666851Z > build 4.0.6 (was 3.1.0)
+build_apk	Dependencies	2026-05-11T06:39:29.6667162Z   build_cli_annotations 2.1.0 (2.1.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6667533Z > build_config 1.3.0 (was 1.2.0)
+build_apk	Dependencies	2026-05-11T06:39:29.6667831Z   build_daemon 4.0.2 (4.1.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6668170Z > build_runner 2.15.0 (was 2.7.1)
+build_apk	Dependencies	2026-05-11T06:39:29.6668477Z   built_value 8.12.0 (8.12.6 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6668803Z   characters 1.4.0 (1.4.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6669123Z   checked_yaml 2.0.3 (2.0.4 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6669432Z   code_builder 4.10.1 (4.11.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6669801Z   connectivity_plus 6.1.0 (7.1.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6670233Z   connectivity_plus_platform_interface 2.0.1 (2.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6670701Z   coverage 1.13.1 (1.15.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6671025Z   cross_file 0.3.4+2 (0.3.5+2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6671376Z   crypto 3.0.6 (3.0.7 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6671714Z   csv 6.0.0 (8.0.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6672038Z > dart_mappable 4.8.0 (was 4.6.0)
+build_apk	Dependencies	2026-05-11T06:39:29.6672363Z   dart_style 3.1.1 (3.1.9 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6672695Z   dbus 0.7.10 (0.7.12 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6673026Z   desktop_drop 0.5.0 (0.7.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6673956Z ! device_apps 2.2.0 from git https://github.com/Tienisto/device_apps.git at 5dc795 (overridden)
+build_apk	Dependencies	2026-05-11T06:39:29.6674588Z   device_info_plus 11.1.1 (13.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6675025Z   device_info_plus_platform_interface 7.0.1 (8.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6675356Z   extended_image 9.0.7 (10.0.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6675603Z   extended_image_library 4.0.5 (5.0.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6675844Z   ffi 2.1.3 (2.2.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6676056Z   file_picker 8.1.4 (11.0.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6676275Z   file_selector 1.0.3 (1.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6676712Z   file_selector_android 0.5.1+11 (0.5.2+6 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6677058Z   file_selector_ios 0.5.3+1 (0.5.3+5 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6677323Z   file_selector_linux 0.9.3+1 (0.9.4 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6677581Z   file_selector_macos 0.9.4+2 (0.9.5 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6677865Z   file_selector_platform_interface 2.6.2 (2.7.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6678177Z   file_selector_windows 0.9.3+3 (0.9.3+5 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6678437Z   flutter_displaymode 0.6.0 (0.7.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6678690Z   flutter_gen_core 5.12.0 (5.14.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6678930Z   flutter_gen_runner 5.12.0 (5.14.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6679178Z   flutter_lints 5.0.0 (6.0.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6679494Z   flutter_markdown 0.7.4+2 (discontinued replaced by flutter_markdown_plus)
+build_apk	Dependencies	2026-05-11T06:39:29.6680113Z   flutter_plugin_android_lifecycle 2.0.23 (2.0.34 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6680408Z   flutter_rust_bridge 2.11.1 (2.12.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6680639Z   gal 2.3.0 (2.3.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6680841Z   glob 2.1.2 (2.1.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6681032Z   gtk 2.1.0 (2.2.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6681232Z   html 0.15.5 (0.15.6 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6681433Z   http 1.2.2 (1.6.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6681658Z   http_multi_server 3.2.1 (3.2.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6682031Z   http_parser 4.0.2 (4.1.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6682417Z   image 4.5.4 (4.8.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6682713Z   image_picker 1.1.2 (1.2.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6682970Z   image_picker_android 0.8.12+17 (0.8.13+17 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6683265Z   image_picker_for_web 3.0.6 (3.1.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6683532Z   image_picker_ios 0.8.12+1 (0.8.13+6 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6683787Z   image_picker_linux 0.2.1+1 (0.2.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6684048Z   image_picker_macos 0.2.1+1 (0.2.2+1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6684331Z   image_picker_platform_interface 2.10.0 (2.11.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6684624Z   image_picker_windows 0.2.1+1 (0.2.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6684870Z   in_app_purchase 3.2.0 (3.2.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6685131Z   in_app_purchase_android 0.3.6+12 (0.4.0+10 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6685504Z   in_app_purchase_storekit 0.3.20+1 (0.4.8+1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6685780Z   io 1.0.4 (1.0.5 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6685975Z   js 0.7.1 (0.7.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6686186Z   json_annotation 4.9.0 (4.11.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6686407Z   lints 5.0.0 (6.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6686809Z   markdown 7.2.2 (7.3.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6687041Z   matcher 0.12.17 (0.12.20 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6687296Z   material_color_utilities 0.11.1 (0.13.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6687569Z < meta 1.16.0 (was 1.17.0) (1.18.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6687804Z   mime 1.0.6 (2.0.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6687996Z > mockito 5.6.5 (was 5.5.0)
+build_apk	Dependencies	2026-05-11T06:39:29.6688201Z   moform 0.2.5 (0.2.11 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6688425Z   network_info_plus 6.1.1 (8.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6688707Z   network_info_plus_platform_interface 2.0.1 (3.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6689002Z   package_config 2.1.0 (2.2.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6689464Z   package_info_plus 8.1.1 (10.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6690117Z   package_info_plus_platform_interface 3.0.1 (4.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6690989Z ! pasteboard 0.3.0 from git https://github.com/Seidko/flutter-plugins.git at 58748d in packages/pasteboard (overridden)
+build_apk	Dependencies	2026-05-11T06:39:29.6691772Z   path_provider_android 2.2.12 (2.3.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6692098Z   path_provider_foundation 2.4.0 (2.6.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6692361Z   permission_handler 11.3.1 (12.0.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6692657Z   permission_handler_android 12.0.13 (13.0.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6692946Z   permission_handler_apple 9.4.5 (9.4.7 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6693257Z   permission_handler_platform_interface 4.2.3 (4.3.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6693828Z ! permission_handler_windows 0.1.2 from git https://github.com/localsend/permission_handler_windows_noop.git at 2dadd8 (overridden)
+build_apk	Dependencies	2026-05-11T06:39:29.6694389Z   petitparser 6.0.2 (7.0.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6694764Z   photo_manager 3.6.2 (3.9.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6695179Z   platform_linux 0.1.2 (0.1.2+1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6695505Z   pointycastle 3.9.1 (4.0.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6695728Z   pool 1.5.1 (1.5.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6695923Z   posix 6.0.3 (6.5.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6696142Z   pretty_qr_code 3.3.0 (3.6.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6696367Z   provider 6.1.2 (6.1.5+1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6696973Z   pubspec_parse 1.3.0 (1.5.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6697366Z   refena 3.1.0 (3.2.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6697581Z   refena_flutter 3.1.0 (3.2.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6697809Z   refena_inspector 2.1.0 (2.1.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6698069Z   refena_inspector_client 2.1.0 (2.1.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6698328Z   rhttp 0.13.0 (0.16.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6698538Z   routerino 0.8.0 (0.8.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6698799Z + rust_lib_wesend_app 0.0.1 from path rust_builder
+build_apk	Dependencies	2026-05-11T06:39:29.6699061Z   saf_stream 0.10.0 (2.0.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6699302Z   share_handler 0.0.22 (0.0.25 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6699547Z   share_handler_android 0.0.9 (0.0.11 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6699804Z   shared_preferences 2.5.2 (2.5.5 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6700067Z   shared_preferences_android 2.4.6 (2.4.23 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6700368Z   shared_preferences_foundation 2.5.3 (2.5.6 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6700693Z   shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6700998Z   shared_preferences_web 2.4.2 (2.4.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6701239Z   shelf 1.4.1 (1.4.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6701443Z   shelf_web_socket 2.0.0 (3.0.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6701701Z   slang 4.9.0 (4.14.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6701915Z   slang_build_runner 4.9.0 (4.14.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6702156Z   slang_flutter 4.9.0 (4.14.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6702388Z > source_gen 4.2.0 (was 3.1.0) (4.2.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6702629Z   source_maps 0.10.12 (0.10.13 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6702862Z   source_span 1.10.1 (1.10.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6703085Z   stream_transform 2.1.0 (2.1.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6703323Z   system_settings_2 3.0.1 (3.0.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6703554Z < test 1.26.2 (was 1.26.3) (1.31.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6703797Z < test_api 0.7.6 (was 0.7.7) (0.7.12 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6704043Z < test_core 0.6.11 (was 0.6.12) (0.6.18 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6704434Z   time 2.1.5 (2.1.6 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6704757Z   tray_manager 0.2.4 (0.5.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6705114Z   uri_content 3.1.1 (3.1.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6705467Z   url_launcher 6.3.1 (6.3.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6705851Z   url_launcher_android 6.3.14 (6.3.29 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6706262Z   url_launcher_ios 6.3.1 (6.4.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6706808Z   url_launcher_linux 3.2.1 (3.2.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6707223Z   url_launcher_macos 3.2.1 (3.2.5 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6707844Z   url_launcher_web 2.3.3 (2.4.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6708285Z   url_launcher_windows 3.1.3 (3.1.5 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6708697Z   uuid 4.5.1 (4.5.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6709101Z   vector_graphics_codec 1.1.12 (1.1.13 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6709599Z   vector_graphics_compiler 1.1.15 (1.2.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6710025Z   vector_math 2.2.0 (2.3.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6710426Z   video_player 2.9.2 (2.11.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6710843Z   video_player_android 2.7.16 (2.9.5 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6711268Z   video_player_avfoundation 2.6.3 (2.9.6 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6711809Z   video_player_platform_interface 6.2.3 (6.7.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6712265Z   video_player_web 2.3.3 (2.4.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6712541Z   vm_service 15.0.0 (15.2.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6712760Z   wakelock_plus 1.2.8 (1.6.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6713036Z   wakelock_plus_platform_interface 1.2.1 (1.5.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6713310Z   watcher 1.1.0 (1.2.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6713517Z   web 1.1.0 (1.1.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6713720Z   web_socket 0.1.6 (1.0.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6713951Z   web_socket_channel 3.0.1 (3.0.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6714197Z   wechat_assets_picker 9.8.0 (10.1.2 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6714438Z   win32 5.8.0 (6.2.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6714648Z   win32_registry 1.1.5 (3.0.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6715270Z   xml 6.5.0 (7.0.1 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6715585Z   yaml 3.1.2 (3.1.3 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6715896Z   yaru 8.3.0 (10.1.0 available)
+build_apk	Dependencies	2026-05-11T06:39:29.6716280Z These packages are no longer being depended on:
+build_apk	Dependencies	2026-05-11T06:39:29.6716779Z - ansicolor 2.0.3
+build_apk	Dependencies	2026-05-11T06:39:29.6717110Z - build_resolvers 3.0.3
+build_apk	Dependencies	2026-05-11T06:39:29.6717308Z - build_runner_core 9.3.1
+build_apk	Dependencies	2026-05-11T06:39:29.6717512Z - dart_mappable_builder 4.6.0
+build_apk	Dependencies	2026-05-11T06:39:29.6717705Z - freezed 3.2.3
+build_apk	Dependencies	2026-05-11T06:39:29.6717926Z - rust_lib_localsend_app 0.0.1 from path rust_builder
+build_apk	Dependencies	2026-05-11T06:39:29.6718178Z - timing 1.0.1
+build_apk	Dependencies	2026-05-11T06:39:29.6718358Z Changed 19 dependencies!
+build_apk	Dependencies	2026-05-11T06:39:29.6718575Z 1 package is discontinued.
+build_apk	Dependencies	2026-05-11T06:39:29.6718869Z 150 packages have newer versions incompatible with dependency constraints.
+build_apk	Dependencies	2026-05-11T06:39:29.6719228Z Try `flutter pub outdated` for more information.
+build_apk	Build APK (ARM64 only)	﻿2026-05-11T06:39:30.3560544Z ##[group]Run flutter build apk --target-platform android-arm64
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3560959Z ^[[36;1mflutter build apk --target-platform android-arm64^[[0m
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3593417Z shell: /usr/bin/bash -e {0}
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3593657Z env:
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3593816Z   FLUTTER_VERSION: 3.35.6
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3594019Z   RUST_VERSION: 1.84.1
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3594308Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3594738Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3595166Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.35.6-x64/flutter
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3595491Z   PUB_CACHE: /home/runner/.pub-cache
+build_apk	Build APK (ARM64 only)	2026-05-11T06:39:30.3595712Z ##[endgroup]
+build_apk	Build APK (ARM64 only)	2026-05-11T06:41:09.4342075Z Running Gradle task 'assembleRelease'...                        
+build_apk	Build APK (ARM64 only)	2026-05-11T06:41:09.4344288Z Checking the license for package NDK (Side by side) 27.0.12077973 in /usr/local/lib/android/sdk/licenses
+build_apk	Build APK (ARM64 only)	2026-05-11T06:41:09.4350169Z License for package NDK (Side by side) 27.0.12077973 accepted.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:41:09.4350878Z Preparing "Install NDK (Side by side) 27.0.12077973 v.27.0.12077973".
+build_apk	Build APK (ARM64 only)	2026-05-11T06:41:24.4210893Z "Install NDK (Side by side) 27.0.12077973 v.27.0.12077973" ready.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:41:24.4212489Z Installing NDK (Side by side) 27.0.12077973 in /usr/local/lib/android/sdk/ndk/27.0.12077973
+build_apk	Build APK (ARM64 only)	2026-05-11T06:41:24.4214552Z "Install NDK (Side by side) 27.0.12077973 v.27.0.12077973" complete.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:41:24.8228165Z "Install NDK (Side by side) 27.0.12077973 v.27.0.12077973" finished.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:36.0227321Z lib/pages/chat_page.dart:91:26: Error: Member not found: 'unknown'.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:36.0228396Z       fileType: FileType.unknown,
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:36.0231503Z                          ^^^^^^^
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.0237704Z Target kernel_snapshot_program failed: Exception
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.0238260Z 
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1214717Z 
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1235002Z FAILURE: Build failed with an exception.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1239456Z 
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1243255Z * What went wrong:
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1248007Z Execution failed for task ':app:compileFlutterBuildRelease'.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1259428Z > Process 'command '/opt/hostedtoolcache/flutter/stable-3.35.6-x64/flutter/bin/flutter'' finished with non-zero exit value 1
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1260272Z 
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1260397Z * Try:
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1260791Z > Run with --stacktrace option to get the stack trace.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1261416Z > Run with --info or --debug option to get more log output.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1261959Z > Run with --scan to get full insights.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1262464Z > Get more help at https://help.gradle.org.
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1262834Z 
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.1263310Z BUILD FAILED in 4m 10s
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.5720745Z Running Gradle task 'assembleRelease'...                          252.4s
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.5802648Z Gradle task assembleRelease failed with exit code 1
+build_apk	Build APK (ARM64 only)	2026-05-11T06:43:43.5848037Z ##[error]Process completed with exit code 1.
+build_apk	Post Install Flutter	﻿2026-05-11T06:43:43.5979338Z Post job cleanup.
+build_apk	Post Set up JDK 17	﻿2026-05-11T06:43:43.6029797Z Post job cleanup.
+build_apk	Post Run actions/checkout@v6	﻿2026-05-11T06:43:43.7416464Z Post job cleanup.
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8214607Z [command]/usr/bin/git version
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8252522Z git version 2.53.0
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8290314Z Temporarily overriding HOME='/home/runner/work/_temp/04bbb8d7-da0e-4a66-a70d-26f29b8f326e' before making global git config changes
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8291426Z Adding repository directory to the temporary git global config as a safe directory
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8293357Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/wesend/wesend
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8319023Z Removing SSH command configuration
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8325700Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8355018Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8551588Z Removing HTTP extra header
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8557313Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8588242Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8778507Z Removing includeIf entries pointing to credentials config files
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8779425Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8799105Z includeif.gitdir:/home/runner/work/wesend/wesend/.git.path
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8799858Z includeif.gitdir:/home/runner/work/wesend/wesend/.git/worktrees/*.path
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8800498Z includeif.gitdir:/github/workspace/.git.path
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8800980Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8808591Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/wesend/wesend/.git.path
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8826183Z /home/runner/work/_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8836974Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/wesend/wesend/.git.path /home/runner/work/_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8866725Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/wesend/wesend/.git/worktrees/*.path
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8885650Z /home/runner/work/_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8896068Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/wesend/wesend/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8923074Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8940647Z /github/runner_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8948498Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8974123Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.8991788Z /github/runner_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.9001752Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.9029080Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build_apk	Post Run actions/checkout@v6	2026-05-11T06:43:43.9197120Z Removing credentials config '/home/runner/work/_temp/git-credentials-af45dea5-7d2b-4c2f-9e87-38df3fa6bf69.config'
+build_apk	Complete job	﻿2026-05-11T06:43:43.9308712Z Cleaning up orphan processes
+build_apk	Complete job	2026-05-11T06:43:43.9538742Z Terminate orphan process: pid (2946) (java)
+build_apk	Complete job	2026-05-11T06:43:43.9570543Z Terminate orphan process: pid (3079) (java)
+build_apk	Complete job	2026-05-11T06:43:43.9630058Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions-rs/toolchain@v1. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
