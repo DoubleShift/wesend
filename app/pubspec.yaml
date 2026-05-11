@@ -91,6 +91,7 @@ dev_dependencies:
   test: ^1.26.2
 
 dependency_overrides:
+  analyzer: 8.0.0
   device_apps:
     # Migrate to another maintained package to fetch installed apps on Android
     git:
