@@ -205,7 +205,7 @@ class _TranslationsSendTabSr extends TranslationsSendTabEn {
   @override
   late final _TranslationsSendTabPickerSr picker = _TranslationsSendTabPickerSr._(_root);
   @override
-  String get shareIntentInfo => 'Takođe, možete da koristite funkciju „Deli�?na svom mobilnom uređaju da biste lakše birali fajlove.';
+  String get shareIntentInfo => 'Takođe, možete da koristite funkciju „Deli“ na svom mobilnom uređaju da biste lakše birali fajlove.';
   @override
   String get nearbyDevices => 'Uređaji u blizini';
   @override
@@ -425,7 +425,7 @@ class _TranslationsWebSharePageSr extends TranslationsWebSharePageEn {
   @override
   String get requirePin => 'Zahtevaj PIN';
   @override
-  String pinHint({required Object pin}) => 'PIN je �?{pin}�?;
+  String pinHint({required Object pin}) => 'PIN je „${pin}“';
   @override
   String get encryptionHint => 'LocalSend koristi samopotpisani sertifikat. Morate ga prihvatiti u svom pregledaču.';
   @override
@@ -1133,7 +1133,7 @@ class _TranslationsDialogsCannotOpenFileSr extends TranslationsDialogsCannotOpen
   @override
   String get title => 'Nije moguće otvoriti fajl';
   @override
-  String content({required Object file}) => 'Nije moguće otvoriti �?{file}�? Da li je ovaj fajl premešten, preimenovan ili izbrisan?';
+  String content({required Object file}) => 'Nije moguće otvoriti „${file}“. Da li je ovaj fajl premešten, preimenovan ili izbrisan?';
 }
 
 // Path: dialogs.encryptionDisabledNotice
@@ -1186,7 +1186,7 @@ class _TranslationsDialogsFavoriteDeleteDialogSr extends TranslationsDialogsFavo
   @override
   String get title => 'Izbriši iz omiljenih';
   @override
-  String content({required Object name}) => 'Želite li zaista da izbrišete �?{name}�?iz omiljenih?';
+  String content({required Object name}) => 'Želite li zaista da izbrišete „${name}“ iz omiljenih?';
 }
 
 // Path: dialogs.favoriteEditDialog

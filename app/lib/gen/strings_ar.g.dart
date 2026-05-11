@@ -1221,7 +1221,7 @@ class _TranslationsDialogsFavoriteEditDialogAr extends TranslationsDialogsFavori
   @override
   String get titleAdd => 'أضف إلى المفضلات';
   @override
-  String get titleEdit => 'اﻹعدادا�?;
+  String get titleEdit => 'اﻹعدادات';
   @override
   String get name => 'اسم الجهاز';
   @override

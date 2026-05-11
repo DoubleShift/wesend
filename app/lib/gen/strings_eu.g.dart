@@ -169,7 +169,7 @@ class _TranslationsGeneralEu extends TranslationsGeneralEn {
   @override
   String get noItemInClipboard => 'Arbela hutsik dago.';
   @override
-  String get quickSaveFromFavorites => '“Gogokoetan�?gorde';
+  String get quickSaveFromFavorites => '“Gogokoetan” gorde';
 }
 
 // Path: receiveTab
@@ -807,7 +807,7 @@ class _TranslationsSettingsTabSendEu extends TranslationsSettingsTabSendEn {
   @override
   String get title => 'Bidali';
   @override
-  String get shareViaLinkAutoAccept => 'Eskaerak automatikoki onartu “URL bidez partekatu�?moduan';
+  String get shareViaLinkAutoAccept => 'Eskaerak automatikoki onartu “URL bidez partekatu” moduan';
 }
 
 // Path: settingsTab.other

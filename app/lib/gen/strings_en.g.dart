@@ -440,7 +440,7 @@ class TranslationsSendPageEn {
 
   // Translations
 
-  /// en: 'Waiting for responseâ€?
+  /// en: 'Waiting for responseâ€¦'
   String get waiting => 'Waiting for responseâ€¦';
 
   /// en: 'The recipient has rejected the request.'
@@ -485,10 +485,10 @@ class TranslationsWebSharePageEn {
   /// en: 'Share via link'
   String get title => 'Share via link';
 
-  /// en: 'Starting serverâ€?
+  /// en: 'Starting serverâ€¦'
   String get loading => 'Starting serverâ€¦';
 
-  /// en: 'Stopping serverâ€?
+  /// en: 'Stopping serverâ€¦'
   String get stopping => 'Stopping serverâ€¦';
 
   /// en: 'An error occurred while starting the server.'
@@ -749,7 +749,7 @@ class TranslationsWebEn {
 
   // Translations
 
-  /// en: 'Waiting for responseâ€?
+  /// en: 'Waiting for responseâ€¦'
   String get waiting => _root.sendPage.waiting;
 
   /// en: 'Enter PIN'

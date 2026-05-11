@@ -205,7 +205,7 @@ class _TranslationsSendTabRo extends TranslationsSendTabEn {
   @override
   late final _TranslationsSendTabPickerRo picker = _TranslationsSendTabPickerRo._(_root);
   @override
-  String get shareIntentInfo => 'Poți utiliza, de asemenea, funcția „Partajare�?a dispozitivului pentru a selecta mai ușor fișierele.';
+  String get shareIntentInfo => 'Poți utiliza, de asemenea, funcția „Partajare” a dispozitivului pentru a selecta mai ușor fișierele.';
   @override
   String get nearbyDevices => 'Dispozitive din apropiere';
   @override

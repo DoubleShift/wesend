@@ -1081,11 +1081,11 @@ class _TranslationsProgressPageRemainingTimeSk extends TranslationsProgressPageR
   @override
   String minutes({required Object n, required Object ss}) => '${n}:${ss}';
 
-  /// Použiť „h�?pre skratku hodín a „m�?pre minúty
+  /// Použiť „h“ pre skratku hodín a „m“ pre minúty
   @override
   String hours({required Object h, required Object m}) => '${h}h ${m}m';
 
-  /// Použiť „d�?pre dni, „h�?pre hodiny a „m�?pre minúty
+  /// Použiť „d“ pre dni, „h“ pre hodiny a „m“ pre minúty
   @override
   String days({required Object d, required Object h, required Object m}) => '${d}d ${h}h ${m}m';
 }
