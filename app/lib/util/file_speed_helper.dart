@@ -19,7 +19,7 @@ String getRemainingTime({
   required int remainingBytes,
 }) {
   if (bytesPerSeconds == 0) {
-    return remainingBytes == 0 ? t.progressPage.remainingTime.seconds(n: 0, ss: '00') : 'âˆ?;
+    return remainingBytes == 0 ? t.progressPage.remainingTime.seconds(n: 0, ss: '00') : '\u221e';
   }
 
   final remainingTimeInSeconds = _getRemainingTime(bytesPerSeconds: bytesPerSeconds, remainingBytes: remainingBytes);

@@ -1,12 +1,12 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:common/model/device.dart';
 import 'package:common/model/file_type.dart';
 import 'package:refena_flutter/refena_flutter.dart';
 import 'package:wesend_app/pages/send_page.dart';
 import 'package:wesend_app/provider/network/send_provider.dart';
-import 'package:wesend_app/provider/selection/selected_sending_files_provider.dart';
 import 'package:wesend_app/model/cross_file.dart';
-import 'package:wesend_app/model/send_mode.dart';
 import 'package:file_picker/file_picker.dart';
 
 class ChatPage extends StatefulWidget {
@@ -45,44 +45,38 @@ class _ChatPageState extends State<ChatPage> with Refena {
     });
   }
 
-  void _sendText() {
+  Future<void> _sendText() async {
     final text = _textController.text.trim();
     if (text.isEmpty) return;
 
     _textController.clear();
     _addMessage(text, true);
 
-    // Send text as file via sendProvider
-    final sessionId = ref.read(sendProvider.notifier).startSession(
-      widget.device,
-      SendMode.instant,
-      background: false,
+    final crossFile = CrossFile(
+      name: '$text.txt',
+      fileType: FileType.text,
+      size: text.length,
+      thumbnail: null,
+      asset: null,
+      path: null,
+      bytes: utf8.encode(text),
+      lastModified: DateTime.now(),
+      lastAccessed: DateTime.now(),
     );
 
-    if (sessionId != null) {
-      ref.read(sendProvider.notifier).addFile(
-        sessionId,
-        CrossFile(
-          name: '$text.txt',
-          size: text.length,
-          fileType: FileType.text,
-          preview: text,
-          path: null,
-          lastModified: DateTime.now(),
-          uri: null,
-        ),
+    try {
+      await ref.notifier(sendProvider).startSession(
+        target: widget.device,
+        files: [crossFile],
+        background: false,
       );
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('发送失败: $e')),
+        );
+      }
     }
-
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => SendPage(
-          showAppBar: true,
-          closeSessionOnClose: true,
-          sessionId: sessionId ?? '',
-        ),
-      ),
-    );
   }
 
   Future<void> _pickAndSendFile() async {
@@ -92,46 +86,30 @@ class _ChatPageState extends State<ChatPage> with Refena {
     final file = result.files.first;
     _addMessage('[文件] ${file.name}', true);
 
-    // Use existing file selection mechanism
-    final sessionId = ref.read(sendProvider.notifier).startSession(
-      widget.device,
-      SendMode.instant,
-      background: false,
+    final crossFile = CrossFile(
+      name: file.name,
+      fileType: FileType.unknown,
+      size: file.size,
+      thumbnail: null,
+      asset: null,
+      path: file.path,
+      bytes: null,
+      lastModified: DateTime.now(),
+      lastAccessed: DateTime.now(),
     );
 
-    if (sessionId != null) {
-      await ref.redux(selectedSendingFilesProvider).dispatchAsync(
-        AddFilesAction(
-          files: [
-            XFileWrapper(
-              name: file.name,
-              path: file.path ?? '',
-              size: file.size,
-            ),
-          ],
-          converter: (xfile) => CrossFile(
-            name: xfile.name,
-            size: xfile.size,
-            fileType: FileType.unknown,
-            preview: null,
-            path: xfile.path,
-            lastModified: DateTime.now(),
-            uri: null,
-          ),
-        ),
+    try {
+      await ref.notifier(sendProvider).startSession(
+        target: widget.device,
+        files: [crossFile],
+        background: false,
       );
-    }
-
-    if (mounted) {
-      Navigator.of(context).push(
-        MaterialPageRoute(
-          builder: (_) => SendPage(
-            showAppBar: true,
-            closeSessionOnClose: true,
-            sessionId: sessionId ?? '',
-          ),
-        ),
-      );
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('发送失败: $e')),
+        );
+      }
     }
   }
 
@@ -368,17 +346,4 @@ class _MessageBubble extends StatelessWidget {
       ),
     );
   }
-}
-
-/// Wrapper for file picker result to match [AddFilesAction]'s expected type.
-class XFileWrapper {
-  final String name;
-  final String path;
-  final int size;
-
-  XFileWrapper({
-    required this.name,
-    required this.path,
-    required this.size,
-  });
 }
