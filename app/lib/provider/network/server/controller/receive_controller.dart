@@ -613,7 +613,7 @@ class ReceiveController {
           _logger.info('Closing session');
 
           // ignore: use_build_context_synchronously, discarded_futures
-          Routerino.context.pushRootImmediately(() => const HomePage(initialTab: HomeTab.receive, appStart: false));
+          Routerino.context.pushRootImmediately(() => const HomePage(initialTab: HomeTab.chats, appStart: false));
 
           // open the dialog to open file instantly
           if (filePath != null && filePath.isNotEmpty) {
@@ -736,7 +736,7 @@ class ReceiveController {
         final List<String> args = (jsonBody['args'] as List?)?.cast<String>() ?? <String>[];
         final filesAdded = await server.ref.redux(selectedSendingFilesProvider).dispatchAsyncTakeResult(LoadSelectionFromArgsAction(args));
         if (filesAdded) {
-          server.ref.redux(homePageControllerProvider).dispatch(ChangeTabAction(HomeTab.send));
+          server.ref.redux(homePageControllerProvider).dispatch(ChangeTabAction(HomeTab.contacts));
         }
       });
 

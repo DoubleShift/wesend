@@ -56,7 +56,7 @@ class ReceiveTab extends StatelessWidget {
                               final activeTab = ref.watch(homePageControllerProvider.select((state) => state.currentTab));
                               return RotatingWidget(
                                 duration: const Duration(seconds: 15),
-                                spinning: vm.serverState != null && animations && activeTab == HomeTab.receive,
+                                spinning: vm.serverState != null && animations && activeTab == HomeTab.chats,
                                 child: const LocalSendLogo(withText: false),
                               );
                             },

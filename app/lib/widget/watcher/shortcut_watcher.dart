@@ -44,7 +44,7 @@ class ShortcutWatcher extends StatelessWidget {
             onInvoke: (_) async {
               await context.global.dispatchAsync(PickFileAction(option: FilePickerOption.clipboard, context: context));
               if (context.mounted) {
-                context.redux(homePageControllerProvider).dispatch(ChangeTabAction(HomeTab.send));
+                context.redux(homePageControllerProvider).dispatch(ChangeTabAction(HomeTab.contacts));
               }
               return null;
             },

@@ -7,7 +7,7 @@ import 'package:wesend_app/config/init.dart';
 import 'package:wesend_app/config/theme.dart';
 import 'package:wesend_app/gen/strings.g.dart';
 import 'package:wesend_app/pages/home_page_controller.dart';
-import 'package:wesend_app/pages/tabs/receive_tab.dart';
+import 'package:wesend_app/pages/tabs/chats_tab.dart';
 import 'package:wesend_app/pages/tabs/send_tab.dart';
 import 'package:wesend_app/pages/tabs/settings_tab.dart';
 import 'package:wesend_app/provider/selection/selected_sending_files_provider.dart';
@@ -17,9 +17,9 @@ import 'package:wesend_app/widget/responsive_builder.dart';
 import 'package:refena_flutter/refena_flutter.dart';
 
 enum HomeTab {
-  receive(Icons.wifi),
-  send(Icons.send),
-  settings(Icons.settings);
+  chats(Icons.chat_bubble_outline),
+  contacts(Icons.contacts_outlined),
+  settings(Icons.settings_outlined);
 
   const HomeTab(this.icon);
 
@@ -27,12 +27,12 @@ enum HomeTab {
 
   String get label {
     switch (this) {
-      case HomeTab.receive:
-        return t.receiveTab.title;
-      case HomeTab.send:
-        return t.sendTab.title;
+      case HomeTab.chats:
+        return '消息';
+      case HomeTab.contacts:
+        return '通讯录';
       case HomeTab.settings:
-        return t.settingsTab.title;
+        return '设置';
     }
   }
 }
@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> with Refena {
                 ),
               );
         }
-        vm.changeTab(HomeTab.send);
+        vm.changeTab(HomeTab.contacts);
       },
       child: ResponsiveBuilder(
         builder: (sizingInformation) {
@@ -121,8 +121,8 @@ class _HomePageState extends State<HomePage> with Refena {
                                         SizedBox(height: 40)
                                       : SizedBox(height: 20),
                                   const Text(
-                                    'LocalSend',
-                                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                                    'WeSend',
+                                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Color(0xFF07C160)),
                                     textAlign: TextAlign.center,
                                   ),
                                   SizedBox(height: 20),
@@ -157,7 +157,7 @@ class _HomePageState extends State<HomePage> with Refena {
                         controller: vm.controller,
                         physics: const NeverScrollableScrollPhysics(),
                         children: const [
-                          SafeArea(child: ReceiveTab()),
+                          SafeArea(child: ChatsTab()),
                           SafeArea(child: SendTab()),
                           SettingsTab(),
                         ],
